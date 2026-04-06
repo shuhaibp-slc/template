@@ -1,0 +1,876 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [8206], {
+    12482: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = function(e) {
+        var t = [],
+          i = null,
+          r = function() {
+            for (var r = arguments.length, a = Array(r), n = 0; n < r; n++) a[n] = arguments[n];
+            t = a, i || (i = requestAnimationFrame(function() {
+              i = null, e.apply(void 0, t)
+            }))
+          };
+        return r.cancel = function() {
+          i && (cancelAnimationFrame(i), i = null)
+        }, r
+      }
+    },
+    21362: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("chevron-right", [
+        ["path", {
+          d: "m9 18 6-6-6-6",
+          key: "mthhwq"
+        }]
+      ])
+    },
+    35205: (e, t, i) => {
+      i.d(t, {
+        z: () => h
+      });
+      var r = i(95155),
+        a = i(12115),
+        n = i(98500),
+        s = i.n(n),
+        o = i(21362),
+        d = i(42442),
+        l = i(39055);
+
+      function c({
+        ...e
+      }) {
+        return (0, r.jsx)("nav", {
+          "aria-label": "breadcrumb",
+          "data-slot": "breadcrumb",
+          ...e
+        })
+      }
+
+      function u({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)("ol", {
+          "data-slot": "breadcrumb-list",
+          className: (0, l.cn)("text-muted-foreground flex flex-wrap items-center gap-1.5 text-sm break-words sm:gap-2.5", e),
+          ...t
+        })
+      }
+
+      function p({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)("li", {
+          "data-slot": "breadcrumb-item",
+          className: (0, l.cn)("inline-flex items-center gap-1.5", e),
+          ...t
+        })
+      }
+
+      function m({
+        asChild: e,
+        className: t,
+        ...i
+      }) {
+        let a = e ? d.bL : "a";
+        return (0, r.jsx)(a, {
+          "data-slot": "breadcrumb-link",
+          className: (0, l.cn)("hover:text-foreground transition-colors", t),
+          ...i
+        })
+      }
+
+      function g({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)("span", {
+          "data-slot": "breadcrumb-page",
+          role: "link",
+          "aria-disabled": "true",
+          "aria-current": "page",
+          className: (0, l.cn)("text-foreground font-normal", e),
+          ...t
+        })
+      }
+
+      function f({
+        children: e,
+        className: t,
+        ...i
+      }) {
+        return (0, r.jsx)("li", {
+          "data-slot": "breadcrumb-separator",
+          role: "presentation",
+          "aria-hidden": "true",
+          className: (0, l.cn)("[&>svg]:size-3.5", t),
+          ...i,
+          children: e ?? (0, r.jsx)(o.A, {})
+        })
+      }
+
+      function h({
+        title: e,
+        description: t,
+        breadcrumbs: i,
+        children: n
+      }) {
+        return (0, r.jsxs)("div", {
+          className: "flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+          children: [(0, r.jsxs)("div", {
+            className: "space-y-1",
+            children: [i && i.length > 0 && (0, r.jsx)(c, {
+              children: (0, r.jsx)(u, {
+                children: i.map((e, t) => {
+                  let n = t === i.length - 1;
+                  return (0, r.jsxs)(a.Fragment, {
+                    children: [(0, r.jsx)(p, {
+                      children: n ? (0, r.jsx)(g, {
+                        children: e.label
+                      }) : (0, r.jsx)(m, {
+                        asChild: !0,
+                        children: (0, r.jsx)(s(), {
+                          href: e.href ?? "#",
+                          children: e.label
+                        })
+                      })
+                    }), !n && (0, r.jsx)(f, {})]
+                  }, e.label)
+                })
+              })
+            }), (0, r.jsx)("h1", {
+              className: "text-2xl font-bold tracking-tight text-foreground",
+              children: e
+            }), t && (0, r.jsx)("p", {
+              className: "text-sm text-muted-foreground",
+              children: t
+            })]
+          }), n && (0, r.jsx)("div", {
+            className: "flex items-center gap-2 shrink-0",
+            children: n
+          })]
+        })
+      }
+    },
+    46616: (e, t, i) => {
+      i.d(t, {
+        SQ: () => u,
+        YH: () => m,
+        a: () => p,
+        cY: () => c,
+        fT: () => n,
+        ge: () => d,
+        l: () => a
+      });
+      var r = i(67645),
+        a = function(e) {
+          var t = e.top,
+            i = e.right,
+            r = e.bottom,
+            a = e.left;
+          return {
+            top: t,
+            right: i,
+            bottom: r,
+            left: a,
+            width: i - a,
+            height: r - t,
+            x: a,
+            y: t,
+            center: {
+              x: (i + a) / 2,
+              y: (r + t) / 2
+            }
+          }
+        },
+        n = function(e, t) {
+          return {
+            top: e.top - t.top,
+            left: e.left - t.left,
+            bottom: e.bottom + t.bottom,
+            right: e.right + t.right
+          }
+        },
+        s = function(e, t) {
+          return {
+            top: e.top + t.top,
+            left: e.left + t.left,
+            bottom: e.bottom - t.bottom,
+            right: e.right - t.right
+          }
+        },
+        o = {
+          top: 0,
+          right: 0,
+          bottom: 0,
+          left: 0
+        },
+        d = function(e) {
+          var t = e.borderBox,
+            i = e.margin,
+            r = void 0 === i ? o : i,
+            d = e.border,
+            l = void 0 === d ? o : d,
+            c = e.padding,
+            u = void 0 === c ? o : c,
+            p = a(n(t, r)),
+            m = a(s(t, l)),
+            g = a(s(m, u));
+          return {
+            marginBox: p,
+            borderBox: a(t),
+            paddingBox: m,
+            contentBox: g,
+            margin: r,
+            border: l,
+            padding: u
+          }
+        },
+        l = function(e) {
+          var t = e.slice(0, -2);
+          if ("px" !== e.slice(-2)) return 0;
+          var i = Number(t);
+          return isNaN(i) && (0, r.A)(!1), i
+        },
+        c = function(e, t) {
+          var i = e.borderBox,
+            r = e.border,
+            a = e.margin,
+            n = e.padding;
+          return d({
+            borderBox: {
+              top: i.top + t.y,
+              left: i.left + t.x,
+              bottom: i.bottom + t.y,
+              right: i.right + t.x
+            },
+            border: r,
+            margin: a,
+            padding: n
+          })
+        },
+        u = function(e, t) {
+          return void 0 === t && (t = {
+            x: window.pageXOffset,
+            y: window.pageYOffset
+          }), c(e, t)
+        },
+        p = function(e, t) {
+          return d({
+            borderBox: e,
+            margin: {
+              top: l(t.marginTop),
+              right: l(t.marginRight),
+              bottom: l(t.marginBottom),
+              left: l(t.marginLeft)
+            },
+            padding: {
+              top: l(t.paddingTop),
+              right: l(t.paddingRight),
+              bottom: l(t.paddingBottom),
+              left: l(t.paddingLeft)
+            },
+            border: {
+              top: l(t.borderTopWidth),
+              right: l(t.borderRightWidth),
+              bottom: l(t.borderBottomWidth),
+              left: l(t.borderLeftWidth)
+            }
+          })
+        },
+        m = function(e) {
+          return p(e.getBoundingClientRect(), window.getComputedStyle(e))
+        }
+    },
+    47385: (e, t, i) => {
+      i.d(t, {
+        J: () => s
+      });
+      var r = i(95155);
+      i(12115);
+      var a = i(91760),
+        n = i(39055);
+
+      function s({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)(a.Root, {
+          "data-slot": "label",
+          className: (0, n.cn)("flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50", e),
+          ...t
+        })
+      }
+    },
+    50259: (e, t, i) => {
+      i.d(t, {
+        p: () => n
+      });
+      var r = i(95155);
+      i(12115);
+      var a = i(39055);
+
+      function n({
+        className: e,
+        type: t,
+        ...i
+      }) {
+        return (0, r.jsx)("input", {
+          type: t,
+          "data-slot": "input",
+          className: (0, a.cn)("file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", "focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]", "aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive", e),
+          ...i
+        })
+      }
+    },
+    51914: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("plus", [
+        ["path", {
+          d: "M5 12h14",
+          key: "1ays0h"
+        }],
+        ["path", {
+          d: "M12 5v14",
+          key: "s699le"
+        }]
+      ])
+    },
+    55078: (e, t, i) => {
+      i.d(t, {
+        E: () => o
+      });
+      var r = i(95155);
+      i(12115);
+      var a = i(18460),
+        n = i(39055);
+      let s = (0, a.F)("inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2", {
+        variants: {
+          variant: {
+            default: "border-transparent bg-primary text-primary-foreground shadow-sm",
+            secondary: "border-transparent bg-secondary text-secondary-foreground",
+            destructive: "border-transparent bg-destructive text-destructive-foreground shadow-sm",
+            success: "border-transparent bg-success text-success-foreground shadow-sm",
+            warning: "border-transparent bg-warning text-warning-foreground shadow-sm",
+            outline: "text-foreground"
+          }
+        },
+        defaultVariants: {
+          variant: "default"
+        }
+      });
+
+      function o({
+        className: e,
+        variant: t,
+        ...i
+      }) {
+        return (0, r.jsx)("div", {
+          className: (0, n.cn)(s({
+            variant: t
+          }), e),
+          ...i
+        })
+      }
+    },
+    57420: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("calendar", [
+        ["path", {
+          d: "M8 2v4",
+          key: "1cmpym"
+        }],
+        ["path", {
+          d: "M16 2v4",
+          key: "4m81vk"
+        }],
+        ["rect", {
+          width: "18",
+          height: "18",
+          x: "3",
+          y: "4",
+          rx: "2",
+          key: "1hopcy"
+        }],
+        ["path", {
+          d: "M3 10h18",
+          key: "8toen8"
+        }]
+      ])
+    },
+    59883: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("grip-vertical", [
+        ["circle", {
+          cx: "9",
+          cy: "12",
+          r: "1",
+          key: "1vctgf"
+        }],
+        ["circle", {
+          cx: "9",
+          cy: "5",
+          r: "1",
+          key: "hp0tcf"
+        }],
+        ["circle", {
+          cx: "9",
+          cy: "19",
+          r: "1",
+          key: "fkjjf6"
+        }],
+        ["circle", {
+          cx: "15",
+          cy: "12",
+          r: "1",
+          key: "1tmaij"
+        }],
+        ["circle", {
+          cx: "15",
+          cy: "5",
+          r: "1",
+          key: "19l28e"
+        }],
+        ["circle", {
+          cx: "15",
+          cy: "19",
+          r: "1",
+          key: "f4zoj3"
+        }]
+      ])
+    },
+    62419: (e, t, i) => {
+      i.d(t, {
+        T: () => n
+      });
+      var r = i(95155);
+      i(12115);
+      var a = i(39055);
+
+      function n({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)("textarea", {
+          "data-slot": "textarea",
+          className: (0, a.cn)("border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content min-h-16 w-full rounded-md border bg-transparent px-3 py-2 text-base shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", e),
+          ...t
+        })
+      }
+    },
+    65672: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+
+      function r() {
+        return (r = Object.assign ? Object.assign.bind() : function(e) {
+          for (var t = 1; t < arguments.length; t++) {
+            var i = arguments[t];
+            for (var r in i)({}).hasOwnProperty.call(i, r) && (e[r] = i[r])
+          }
+          return e
+        }).apply(null, arguments)
+      }
+    },
+    66088: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("chevron-down", [
+        ["path", {
+          d: "m6 9 6 6 6-6",
+          key: "qrunsl"
+        }]
+      ])
+    },
+    67645: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+
+      function r(e, t) {
+        if (!e) throw Error("Invariant failed")
+      }
+    },
+    68459: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("trash-2", [
+        ["path", {
+          d: "M10 11v6",
+          key: "nco0om"
+        }],
+        ["path", {
+          d: "M14 11v6",
+          key: "outv1u"
+        }],
+        ["path", {
+          d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6",
+          key: "miytrc"
+        }],
+        ["path", {
+          d: "M3 6h18",
+          key: "d0wm0j"
+        }],
+        ["path", {
+          d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
+          key: "e791ji"
+        }]
+      ])
+    },
+    75137: (e, t, i) => {
+      i.d(t, {
+        Db: () => s,
+        XZ: () => o,
+        bm: () => n,
+        vq: () => d
+      });
+      let r = [{
+          id: "backlog",
+          title: "Backlog",
+          tasks: [{
+            id: "task-1",
+            title: "Design new onboarding flow",
+            description: "Create wireframes and high-fidelity mockups for the updated user onboarding experience targeting a 20% improvement in activation rate.",
+            priority: "high",
+            assignee: "Sarah Chen",
+            assigneeInitials: "SC",
+            labels: ["design", "ux"],
+            dueDate: "2026-03-05"
+          }, {
+            id: "task-2",
+            title: "Evaluate third-party analytics providers",
+            description: "Compare Mixpanel, Amplitude, and PostHog for our product analytics needs. Prepare a recommendation document.",
+            priority: "medium",
+            assignee: "James Wilson",
+            assigneeInitials: "JW",
+            labels: ["research"]
+          }, {
+            id: "task-3",
+            title: "Add multi-language support to email templates",
+            description: "Implement i18n for transactional emails — at minimum English, Spanish, and French.",
+            priority: "low",
+            labels: ["i18n"],
+            dueDate: "2026-04-01"
+          }, {
+            id: "task-4",
+            title: "Audit API rate-limiting configuration",
+            description: "Review current rate limits across all public endpoints and adjust for the upcoming enterprise tier launch.",
+            priority: "medium",
+            assignee: "Priya Patel",
+            assigneeInitials: "PP",
+            labels: ["backend", "security"]
+          }]
+        }, {
+          id: "in-progress",
+          title: "In Progress",
+          tasks: [{
+            id: "task-5",
+            title: "Implement Stripe subscription webhooks",
+            description: "Handle subscription.created, updated, and deleted events to keep billing status in sync.",
+            priority: "high",
+            assignee: "Alex Rivera",
+            assigneeInitials: "AR",
+            labels: ["backend", "billing"],
+            dueDate: "2026-02-25"
+          }, {
+            id: "task-6",
+            title: "Build dashboard activity feed component",
+            description: "Real-time feed showing team activity — deployments, comments, and status changes.",
+            priority: "medium",
+            assignee: "Sarah Chen",
+            assigneeInitials: "SC",
+            labels: ["frontend"]
+          }, {
+            id: "task-7",
+            title: "Migrate user avatars to CDN",
+            description: "Move avatar storage from local disk to Cloudflare R2 with automatic resizing.",
+            priority: "low",
+            assignee: "James Wilson",
+            assigneeInitials: "JW",
+            labels: ["infra"],
+            dueDate: "2026-03-10"
+          }]
+        }, {
+          id: "in-review",
+          title: "In Review",
+          tasks: [{
+            id: "task-8",
+            title: "Add role-based access control to team settings",
+            description: "Restrict settings pages based on user roles (owner, admin, member). Includes middleware and UI guards.",
+            priority: "high",
+            assignee: "Priya Patel",
+            assigneeInitials: "PP",
+            labels: ["security", "frontend"],
+            dueDate: "2026-02-20"
+          }, {
+            id: "task-9",
+            title: "Optimize SQL queries for the reports page",
+            description: "Several queries on the monthly report exceed 500ms. Add proper indexes and refactor N+1 patterns.",
+            priority: "medium",
+            assignee: "Alex Rivera",
+            assigneeInitials: "AR",
+            labels: ["backend", "performance"]
+          }]
+        }, {
+          id: "done",
+          title: "Done",
+          tasks: [{
+            id: "task-10",
+            title: "Set up CI/CD pipeline with GitHub Actions",
+            description: "Automated lint, test, build, and deploy steps for staging and production environments.",
+            priority: "medium",
+            assignee: "James Wilson",
+            assigneeInitials: "JW",
+            labels: ["devops"]
+          }, {
+            id: "task-11",
+            title: "Implement dark mode theme toggle",
+            description: "System/light/dark mode support using next-themes with smooth transitions.",
+            priority: "low",
+            assignee: "Sarah Chen",
+            assigneeInitials: "SC",
+            labels: ["frontend", "ux"]
+          }, {
+            id: "task-12",
+            title: "Create API documentation with OpenAPI spec",
+            description: "Write Swagger/OpenAPI 3.1 spec for all public endpoints and publish to docs site.",
+            priority: "high",
+            assignee: "Priya Patel",
+            assigneeInitials: "PP",
+            labels: ["docs"],
+            dueDate: "2026-02-15"
+          }]
+        }],
+        a = 13;
+
+      function n() {
+        return r.map(e => ({
+          ...e,
+          tasks: [...e.tasks]
+        }))
+      }
+
+      function s(e, t, i, a) {
+        let n = r.find(e => e.id === t),
+          s = r.find(e => e.id === i);
+        if (!n || !s) return;
+        let o = n.tasks.findIndex(t => t.id === e);
+        if (-1 === o) return;
+        let [d] = n.tasks.splice(o, 1);
+        s.tasks.splice(a, 0, d)
+      }
+
+      function o(e, t) {
+        let i = r.find(t => t.id === e);
+        if (!i) return;
+        let n = {
+          ...t,
+          id: `task-${a++}`
+        };
+        return i.tasks.push(n), n
+      }
+
+      function d(e, t) {
+        let i = r.find(t => t.id === e);
+        if (!i) return !1;
+        let a = i.tasks.findIndex(e => e.id === t);
+        return -1 !== a && (i.tasks.splice(a, 1), !0)
+      }
+    },
+    81746: (e, t, i) => {
+      i.d(t, {
+        l6: () => l,
+        gC: () => p,
+        eb: () => m,
+        bq: () => u,
+        yv: () => c
+      });
+      var r = i(95155);
+      i(12115);
+      var a = i(66088),
+        n = i(94514);
+      let s = (0, i(90425).A)("chevron-up", [
+        ["path", {
+          d: "m18 15-6-6-6 6",
+          key: "153udz"
+        }]
+      ]);
+      var o = i(33960),
+        d = i(39055);
+
+      function l({
+        ...e
+      }) {
+        return (0, r.jsx)(o.Root, {
+          "data-slot": "select",
+          ...e
+        })
+      }
+
+      function c({
+        ...e
+      }) {
+        return (0, r.jsx)(o.Value, {
+          "data-slot": "select-value",
+          ...e
+        })
+      }
+
+      function u({
+        className: e,
+        size: t = "default",
+        children: i,
+        ...n
+      }) {
+        return (0, r.jsxs)(o.Trigger, {
+          "data-slot": "select-trigger",
+          "data-size": t,
+          className: (0, d.cn)("border-input data-[placeholder]:text-muted-foreground [&_svg:not([class*='text-'])]:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 dark:hover:bg-input/50 flex w-fit items-center justify-between gap-2 rounded-md border bg-transparent px-3 py-2 text-sm whitespace-nowrap shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[size=default]:h-9 data-[size=sm]:h-8 *:data-[slot=select-value]:line-clamp-1 *:data-[slot=select-value]:flex *:data-[slot=select-value]:items-center *:data-[slot=select-value]:gap-2 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4", e),
+          ...n,
+          children: [i, (0, r.jsx)(o.Icon, {
+            asChild: !0,
+            children: (0, r.jsx)(a.A, {
+              className: "size-4 opacity-50"
+            })
+          })]
+        })
+      }
+
+      function p({
+        className: e,
+        children: t,
+        position: i = "item-aligned",
+        align: a = "center",
+        ...n
+      }) {
+        return (0, r.jsx)(o.Portal, {
+          children: (0, r.jsxs)(o.Content, {
+            "data-slot": "select-content",
+            className: (0, d.cn)("bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-(--radix-select-content-available-height) min-w-[8rem] origin-(--radix-select-content-transform-origin) overflow-x-hidden overflow-y-auto rounded-md border shadow-md", "popper" === i && "data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1", e),
+            position: i,
+            align: a,
+            ...n,
+            children: [(0, r.jsx)(g, {}), (0, r.jsx)(o.Viewport, {
+              className: (0, d.cn)("p-1", "popper" === i && "h-[var(--radix-select-trigger-height)] w-full min-w-[var(--radix-select-trigger-width)] scroll-my-1"),
+              children: t
+            }), (0, r.jsx)(f, {})]
+          })
+        })
+      }
+
+      function m({
+        className: e,
+        children: t,
+        ...i
+      }) {
+        return (0, r.jsxs)(o.Item, {
+          "data-slot": "select-item",
+          className: (0, d.cn)("focus:bg-accent focus:text-accent-foreground [&_svg:not([class*='text-'])]:text-muted-foreground relative flex w-full cursor-default items-center gap-2 rounded-sm py-1.5 pe-8 ps-2 text-sm outline-hidden select-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 *:[span]:last:flex *:[span]:last:items-center *:[span]:last:gap-2", e),
+          ...i,
+          children: [(0, r.jsx)("span", {
+            "data-slot": "select-item-indicator",
+            className: "absolute ltr:right-2 rtl:left-2 flex size-3.5 items-center justify-center",
+            children: (0, r.jsx)(o.ItemIndicator, {
+              children: (0, r.jsx)(n.A, {
+                className: "size-4"
+              })
+            })
+          }), (0, r.jsx)(o.ItemText, {
+            children: t
+          })]
+        })
+      }
+
+      function g({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)(o.ScrollUpButton, {
+          "data-slot": "select-scroll-up-button",
+          className: (0, d.cn)("flex cursor-default items-center justify-center py-1", e),
+          ...t,
+          children: (0, r.jsx)(s, {
+            className: "size-4"
+          })
+        })
+      }
+
+      function f({
+        className: e,
+        ...t
+      }) {
+        return (0, r.jsx)(o.ScrollDownButton, {
+          "data-slot": "select-scroll-down-button",
+          className: (0, d.cn)("flex cursor-default items-center justify-center py-1", e),
+          ...t,
+          children: (0, r.jsx)(a.A, {
+            className: "size-4"
+          })
+        })
+      }
+    },
+    91760: (e, t, i) => {
+      i.r(t), i.d(t, {
+        Label: () => o,
+        Root: () => d
+      });
+      var r = i(12115);
+      i(47650);
+      var a = i(42442),
+        n = i(95155),
+        s = ["a", "button", "div", "form", "h2", "h3", "img", "input", "label", "li", "nav", "ol", "p", "select", "span", "svg", "ul"].reduce((e, t) => {
+          let i = (0, a.TL)(`Primitive.${t}`),
+            s = r.forwardRef((e, r) => {
+              let {
+                asChild: a,
+                ...s
+              } = e;
+              return "u" > typeof window && (window[Symbol.for("radix-ui")] = !0), (0, n.jsx)(a ? i : t, {
+                ...s,
+                ref: r
+              })
+            });
+          return s.displayName = `Primitive.${t}`, {
+            ...e,
+            [t]: s
+          }
+        }, {}),
+        o = r.forwardRef((e, t) => (0, n.jsx)(s.label, {
+          ...e,
+          ref: t,
+          onMouseDown: t => {
+            t.target.closest("button, input, select, textarea") || (e.onMouseDown?.(t), !t.defaultPrevented && t.detail > 1 && t.preventDefault())
+          }
+        }));
+      o.displayName = "Label";
+      var d = o
+    },
+    94514: (e, t, i) => {
+      i.d(t, {
+        A: () => r
+      });
+      let r = (0, i(90425).A)("check", [
+        ["path", {
+          d: "M20 6 9 17l-5-5",
+          key: "1gmf2c"
+        }]
+      ])
+    }
+  }
+]);

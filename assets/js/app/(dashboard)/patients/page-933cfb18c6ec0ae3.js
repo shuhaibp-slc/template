@@ -1,0 +1,883 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [9813], {
+    12565: (e, s, t) => {
+      "use strict";
+      t.r(s), t.d(s, {
+        default: () => V
+      });
+      var a = t(95155),
+        r = t(12115),
+        i = t(62831),
+        l = t(55078),
+        n = t(74666),
+        d = t(35125),
+        c = t(50259),
+        o = t(97417),
+        m = t(1728),
+        x = t(16746),
+        h = t(32539),
+        g = t(59656),
+        u = t(65671),
+        p = t(75319),
+        j = t(7810),
+        N = t(57684),
+        f = t(41585),
+        v = t(84980),
+        y = t(61878),
+        b = t(51914),
+        C = t(50061),
+        w = t(62032),
+        A = t(85118),
+        P = t(7686),
+        S = t(65213),
+        M = t(72140),
+        k = t(36877),
+        D = t(47385),
+        F = t(81746),
+        O = t(66609),
+        R = t(39055);
+      let L = [{
+          title: "Total Patients",
+          value: "1,247",
+          change: "+3.2%",
+          icon: j.A,
+          color: "text-chart-1",
+          bg: "bg-chart-1/10"
+        }, {
+          title: "New This Month",
+          value: "86",
+          change: "+12.4%",
+          icon: N.A,
+          color: "text-chart-2",
+          bg: "bg-chart-2/10"
+        }, {
+          title: "Critical Cases",
+          value: "12",
+          change: "-2",
+          icon: f.A,
+          color: "text-destructive",
+          bg: "bg-destructive/10"
+        }, {
+          title: "Avg Stay",
+          value: "4.2 days",
+          change: "-0.3d",
+          icon: v.A,
+          color: "text-chart-4",
+          bg: "bg-chart-4/10"
+        }],
+        T = [{
+          id: "P-1001",
+          name: "Margaret Chen",
+          initials: "MC",
+          age: 64,
+          gender: "Female",
+          diagnosis: "Type 2 Diabetes",
+          doctor: "Dr. Sarah Mitchell",
+          status: "active",
+          room: "204-A",
+          bloodType: "A+",
+          allergies: ["Penicillin"],
+          emergencyContact: "David Chen",
+          emergencyPhone: "(555) 234-5678"
+        }, {
+          id: "P-1002",
+          name: "James O'Sullivan",
+          initials: "JO",
+          age: 72,
+          gender: "Male",
+          diagnosis: "Hypertension",
+          doctor: "Dr. Robert Kim",
+          status: "critical",
+          room: "ICU-3",
+          bloodType: "O-",
+          allergies: ["Sulfa drugs", "Aspirin"],
+          emergencyContact: "Karen O'Sullivan",
+          emergencyPhone: "(555) 345-6789"
+        }, {
+          id: "P-1003",
+          name: "Aisha Rahman",
+          initials: "AR",
+          age: 45,
+          gender: "Female",
+          diagnosis: "Post-op Recovery (Knee)",
+          doctor: "Dr. Michael Torres",
+          status: "recovering",
+          room: "312-B",
+          bloodType: "B+",
+          allergies: [],
+          emergencyContact: "Omar Rahman",
+          emergencyPhone: "(555) 456-7890"
+        }, {
+          id: "P-1004",
+          name: "Robert Nakamura",
+          initials: "RN",
+          age: 58,
+          gender: "Male",
+          diagnosis: "Chronic Heart Failure",
+          doctor: "Dr. Sarah Mitchell",
+          status: "critical",
+          room: "ICU-7",
+          bloodType: "AB+",
+          allergies: ["Iodine"],
+          emergencyContact: "Lisa Nakamura",
+          emergencyPhone: "(555) 567-8901"
+        }, {
+          id: "P-1005",
+          name: "Elena Vasquez",
+          initials: "EV",
+          age: 34,
+          gender: "Female",
+          diagnosis: "Pneumonia",
+          doctor: "Dr. Angela Park",
+          status: "active",
+          room: "118-A",
+          bloodType: "O+",
+          allergies: ["Latex"],
+          emergencyContact: "Carlos Vasquez",
+          emergencyPhone: "(555) 678-9012"
+        }, {
+          id: "P-1006",
+          name: "Thomas Bergstrom",
+          initials: "TB",
+          age: 81,
+          gender: "Male",
+          diagnosis: "Atrial Fibrillation",
+          doctor: "Dr. Robert Kim",
+          status: "active",
+          room: "205-C",
+          bloodType: "A-",
+          allergies: ["Codeine", "NSAIDs"],
+          emergencyContact: "Ingrid Bergstrom",
+          emergencyPhone: "(555) 789-0123"
+        }, {
+          id: "P-1007",
+          name: "Priya Patel",
+          initials: "PP",
+          age: 29,
+          gender: "Female",
+          diagnosis: "Appendectomy Recovery",
+          doctor: "Dr. Michael Torres",
+          status: "discharged",
+          room: "—",
+          bloodType: "B-",
+          allergies: [],
+          emergencyContact: "Raj Patel",
+          emergencyPhone: "(555) 890-1234"
+        }, {
+          id: "P-1008",
+          name: "William Frost",
+          initials: "WF",
+          age: 67,
+          gender: "Male",
+          diagnosis: "COPD Exacerbation",
+          doctor: "Dr. Angela Park",
+          status: "recovering",
+          room: "310-A",
+          bloodType: "O+",
+          allergies: ["Erythromycin"],
+          emergencyContact: "Mary Frost",
+          emergencyPhone: "(555) 901-2345"
+        }],
+        E = {
+          active: "success",
+          critical: "destructive",
+          discharged: "secondary",
+          recovering: "warning"
+        },
+        W = Array.from({
+          length: 24
+        }, (e, s) => {
+          let t = 8 * Math.sin(.5 * s) + 5 * Math.cos(.3 * s);
+          return {
+            hour: `${String(s).padStart(2,"0")}:00`,
+            bpm: Math.round(72 + t + (14 === s ? 12 : 18 === s ? -6 : 0))
+          }
+        }),
+        B = T[0],
+        q = [{
+          name: "Metformin",
+          dosage: "500mg",
+          frequency: "Twice daily",
+          time: "8:00 AM, 8:00 PM"
+        }, {
+          name: "Lisinopril",
+          dosage: "10mg",
+          frequency: "Once daily",
+          time: "9:00 AM"
+        }, {
+          name: "Atorvastatin",
+          dosage: "20mg",
+          frequency: "Once daily",
+          time: "9:00 PM"
+        }, {
+          name: "Aspirin",
+          dosage: "81mg",
+          frequency: "Once daily",
+          time: "8:00 AM"
+        }],
+        Z = [{
+          type: "Lab Work",
+          date: "Feb 28, 2026",
+          time: "9:30 AM",
+          doctor: "Dr. Sarah Mitchell"
+        }, {
+          type: "Endocrinology Consult",
+          date: "Mar 4, 2026",
+          time: "2:00 PM",
+          doctor: "Dr. Helen Wu"
+        }, {
+          type: "Follow-up Visit",
+          date: "Mar 12, 2026",
+          time: "10:00 AM",
+          doctor: "Dr. Sarah Mitchell"
+        }];
+
+      function J({
+        active: e,
+        payload: s,
+        label: t
+      }) {
+        return e && s?.length ? (0, a.jsxs)("div", {
+          className: "rounded-lg border border-border bg-popover px-3 py-2 shadow-xl",
+          children: [(0, a.jsx)("p", {
+            className: "mb-1 text-xs font-medium text-muted-foreground",
+            children: t
+          }), s.map((e, s) => (0, a.jsxs)("p", {
+            className: "text-sm font-semibold",
+            style: {
+              color: e.color
+            },
+            children: [e.value, " bpm"]
+          }, s))]
+        }) : null
+      }
+
+      function V() {
+        let [e, s] = (0, r.useState)(""), [t, j] = (0, r.useState)(B), [N, f] = (0, r.useState)(!1), [v, V] = (0, r.useState)(""), [I, K] = (0, r.useState)(""), [_, G] = (0, r.useState)(""), [H, U] = (0, r.useState)(""), [$, X] = (0, r.useState)(""), [Q, Y] = (0, r.useState)(""), ee = T.filter(s => s.name.toLowerCase().includes(e.toLowerCase()) || s.diagnosis.toLowerCase().includes(e.toLowerCase()) || s.doctor.toLowerCase().includes(e.toLowerCase()) || s.id.toLowerCase().includes(e.toLowerCase())), es = ee.filter(e => "critical" === e.status), et = ee.filter(e => "discharged" === e.status);
+        return (0, a.jsxs)(a.Fragment, {
+          children: [(0, a.jsxs)("div", {
+            className: "mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+            children: [(0, a.jsxs)("div", {
+              children: [(0, a.jsx)("h1", {
+                className: "text-2xl font-bold tracking-tight",
+                children: "Patient Overview"
+              }), (0, a.jsx)("p", {
+                className: "mt-1 text-sm text-muted-foreground",
+                children: "Monitor and manage patient records, vitals, and care plans."
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "flex items-center gap-3",
+              children: [(0, a.jsxs)("div", {
+                className: "relative",
+                children: [(0, a.jsx)(y.A, {
+                  className: "absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+                }), (0, a.jsx)(c.p, {
+                  placeholder: "Search patients...",
+                  value: e,
+                  onChange: e => s(e.target.value),
+                  className: "w-64 pl-9"
+                })]
+              }), (0, a.jsxs)(d.$, {
+                onClick: () => f(!0),
+                children: [(0, a.jsx)(b.A, {
+                  className: "mr-2 h-4 w-4"
+                }), "Add Patient"]
+              })]
+            })]
+          }), (0, a.jsx)("div", {
+            className: "grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4",
+            children: L.map(e => {
+              let s = e.icon;
+              return (0, a.jsx)(i.Zp, {
+                children: (0, a.jsx)(i.Wu, {
+                  className: "p-5",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-start justify-between",
+                    children: [(0, a.jsxs)("div", {
+                      className: "space-y-2",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-xs font-medium text-muted-foreground",
+                        children: e.title
+                      }), (0, a.jsx)("p", {
+                        className: "text-2xl font-bold tracking-tight",
+                        children: e.value
+                      }), (0, a.jsxs)("p", {
+                        className: "text-xs font-medium text-muted-foreground",
+                        children: [e.change, " from last month"]
+                      })]
+                    }), (0, a.jsx)("div", {
+                      className: (0, R.cn)("flex h-10 w-10 items-center justify-center rounded-xl", e.bg),
+                      children: (0, a.jsx)(s, {
+                        className: (0, R.cn)("h-5 w-5", e.color)
+                      })
+                    })]
+                  })
+                })
+              }, e.title)
+            })
+          }), (0, a.jsxs)("div", {
+            className: "mt-6 grid grid-cols-1 gap-6 xl:grid-cols-12",
+            children: [(0, a.jsx)("div", {
+              className: "xl:col-span-8",
+              children: (0, a.jsxs)(o.tU, {
+                defaultValue: "all",
+                children: [(0, a.jsxs)(o.j7, {
+                  children: [(0, a.jsxs)(o.Xi, {
+                    value: "all",
+                    children: ["All Patients", (0, a.jsx)(l.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: ee.length
+                    })]
+                  }), (0, a.jsxs)(o.Xi, {
+                    value: "critical",
+                    children: ["Critical", (0, a.jsx)(l.E, {
+                      variant: "destructive",
+                      className: "ml-2 text-[10px]",
+                      children: es.length
+                    })]
+                  }), (0, a.jsxs)(o.Xi, {
+                    value: "discharged",
+                    children: ["Discharged", (0, a.jsx)(l.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: et.length
+                    })]
+                  })]
+                }), (0, a.jsxs)(o.av, {
+                  value: "all",
+                  className: "mt-4 space-y-3",
+                  children: [ee.map(e => (0, a.jsx)(z, {
+                    patient: e,
+                    isSelected: t.id === e.id,
+                    onSelect: () => j(e)
+                  }, e.id)), 0 === ee.length && (0, a.jsx)("p", {
+                    className: "py-8 text-center text-sm text-muted-foreground",
+                    children: "No patients match your search."
+                  })]
+                }), (0, a.jsxs)(o.av, {
+                  value: "critical",
+                  className: "mt-4 space-y-3",
+                  children: [es.map(e => (0, a.jsx)(z, {
+                    patient: e,
+                    isSelected: t.id === e.id,
+                    onSelect: () => j(e)
+                  }, e.id)), 0 === es.length && (0, a.jsx)("p", {
+                    className: "py-8 text-center text-sm text-muted-foreground",
+                    children: "No critical patients found."
+                  })]
+                }), (0, a.jsxs)(o.av, {
+                  value: "discharged",
+                  className: "mt-4 space-y-3",
+                  children: [et.map(e => (0, a.jsx)(z, {
+                    patient: e,
+                    isSelected: t.id === e.id,
+                    onSelect: () => j(e)
+                  }, e.id)), 0 === et.length && (0, a.jsx)("p", {
+                    className: "py-8 text-center text-sm text-muted-foreground",
+                    children: "No discharged patients found."
+                  })]
+                })]
+              })
+            }), (0, a.jsxs)("div", {
+              className: "xl:col-span-4 space-y-4",
+              children: [(0, a.jsxs)(i.Zp, {
+                children: [(0, a.jsx)(i.aR, {
+                  className: "pb-3",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-3",
+                    children: [(0, a.jsx)(n.eu, {
+                      className: "h-12 w-12",
+                      children: (0, a.jsx)(n.q5, {
+                        className: "text-sm font-bold",
+                        children: t.initials
+                      })
+                    }), (0, a.jsxs)("div", {
+                      children: [(0, a.jsx)(i.ZB, {
+                        className: "text-base font-semibold",
+                        children: t.name
+                      }), (0, a.jsxs)("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: [t.id, " \xb7 Room ", t.room]
+                      })]
+                    })]
+                  })
+                }), (0, a.jsxs)(i.Wu, {
+                  className: "space-y-3",
+                  children: [(0, a.jsxs)("div", {
+                    className: "grid grid-cols-2 gap-3",
+                    children: [(0, a.jsxs)("div", {
+                      className: "space-y-1",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-[11px] font-medium text-muted-foreground",
+                        children: "Age"
+                      }), (0, a.jsxs)("p", {
+                        className: "text-sm font-medium",
+                        children: [t.age, " years"]
+                      })]
+                    }), (0, a.jsxs)("div", {
+                      className: "space-y-1",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-[11px] font-medium text-muted-foreground",
+                        children: "Gender"
+                      }), (0, a.jsx)("p", {
+                        className: "text-sm font-medium",
+                        children: t.gender
+                      })]
+                    }), (0, a.jsxs)("div", {
+                      className: "space-y-1",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-[11px] font-medium text-muted-foreground",
+                        children: "Blood Type"
+                      }), (0, a.jsxs)("div", {
+                        className: "flex items-center gap-1.5",
+                        children: [(0, a.jsx)(C.A, {
+                          className: "h-3.5 w-3.5 text-destructive"
+                        }), (0, a.jsx)("p", {
+                          className: "text-sm font-semibold",
+                          children: t.bloodType
+                        })]
+                      })]
+                    }), (0, a.jsxs)("div", {
+                      className: "space-y-1",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-[11px] font-medium text-muted-foreground",
+                        children: "Status"
+                      }), (0, a.jsx)(l.E, {
+                        variant: E[t.status],
+                        className: "capitalize text-[11px]",
+                        children: t.status
+                      })]
+                    })]
+                  }), (0, a.jsxs)("div", {
+                    className: "space-y-1 pt-1",
+                    children: [(0, a.jsx)("p", {
+                      className: "text-[11px] font-medium text-muted-foreground",
+                      children: "Diagnosis"
+                    }), (0, a.jsx)("p", {
+                      className: "text-sm font-medium",
+                      children: t.diagnosis
+                    })]
+                  }), (0, a.jsxs)("div", {
+                    className: "space-y-1",
+                    children: [(0, a.jsx)("p", {
+                      className: "text-[11px] font-medium text-muted-foreground",
+                      children: "Allergies"
+                    }), t.allergies.length > 0 ? (0, a.jsx)("div", {
+                      className: "flex flex-wrap gap-1.5",
+                      children: t.allergies.map(e => (0, a.jsxs)(l.E, {
+                        variant: "destructive",
+                        className: "text-[10px]",
+                        children: [(0, a.jsx)(w.A, {
+                          className: "mr-1 h-3 w-3"
+                        }), e]
+                      }, e))
+                    }) : (0, a.jsx)("p", {
+                      className: "text-sm text-muted-foreground",
+                      children: "None known"
+                    })]
+                  }), (0, a.jsxs)("div", {
+                    className: "space-y-1 pt-1",
+                    children: [(0, a.jsx)("p", {
+                      className: "text-[11px] font-medium text-muted-foreground",
+                      children: "Emergency Contact"
+                    }), (0, a.jsxs)("div", {
+                      className: "flex items-center gap-2",
+                      children: [(0, a.jsx)(A.A, {
+                        className: "h-3.5 w-3.5 text-muted-foreground"
+                      }), (0, a.jsxs)("div", {
+                        children: [(0, a.jsx)("p", {
+                          className: "text-sm font-medium",
+                          children: t.emergencyContact
+                        }), (0, a.jsx)("p", {
+                          className: "text-xs text-muted-foreground",
+                          children: t.emergencyPhone
+                        })]
+                      })]
+                    })]
+                  })]
+                })]
+              }), (0, a.jsxs)(i.Zp, {
+                children: [(0, a.jsx)(i.aR, {
+                  className: "pb-2",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center justify-between",
+                    children: [(0, a.jsxs)("div", {
+                      children: [(0, a.jsx)(i.ZB, {
+                        className: "text-base font-semibold",
+                        children: "Heart Rate"
+                      }), (0, a.jsx)("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: "Last 24 hours"
+                      })]
+                    }), (0, a.jsxs)("div", {
+                      className: "flex items-center gap-1.5",
+                      children: [(0, a.jsx)(P.A, {
+                        className: "h-4 w-4 text-destructive"
+                      }), (0, a.jsx)("span", {
+                        className: "text-lg font-bold",
+                        children: W[W.length - 1].bpm
+                      }), (0, a.jsx)("span", {
+                        className: "text-xs text-muted-foreground",
+                        children: "bpm"
+                      })]
+                    })]
+                  })
+                }), (0, a.jsx)(i.Wu, {
+                  children: (0, a.jsx)(m.u, {
+                    width: "100%",
+                    height: 160,
+                    children: (0, a.jsxs)(x.b, {
+                      data: W,
+                      children: [(0, a.jsx)("defs", {
+                        children: (0, a.jsxs)("linearGradient", {
+                          id: "hr-gradient",
+                          x1: "0",
+                          y1: "0",
+                          x2: "0",
+                          y2: "1",
+                          children: [(0, a.jsx)("stop", {
+                            offset: "0%",
+                            stopColor: "var(--chart-1)",
+                            stopOpacity: .15
+                          }), (0, a.jsx)("stop", {
+                            offset: "100%",
+                            stopColor: "var(--chart-1)",
+                            stopOpacity: 0
+                          })]
+                        })
+                      }), (0, a.jsx)(h.W, {
+                        dataKey: "hour",
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 10
+                        },
+                        interval: 5,
+                        dy: 4
+                      }), (0, a.jsx)(g.h, {
+                        domain: [55, 95],
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 10
+                        },
+                        dx: -4,
+                        width: 30
+                      }), (0, a.jsx)(u.m, {
+                        content: (0, a.jsx)(J, {})
+                      }), (0, a.jsx)(p.N1, {
+                        type: "monotone",
+                        dataKey: "bpm",
+                        stroke: "var(--chart-1)",
+                        strokeWidth: 2,
+                        dot: !1,
+                        activeDot: {
+                          r: 4,
+                          strokeWidth: 2,
+                          fill: "var(--background)"
+                        }
+                      })]
+                    })
+                  })
+                })]
+              }), (0, a.jsxs)(i.Zp, {
+                children: [(0, a.jsx)(i.aR, {
+                  className: "pb-3",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(S.A, {
+                      className: "h-4 w-4 text-chart-2"
+                    }), (0, a.jsx)(i.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Current Medications"
+                    })]
+                  })
+                }), (0, a.jsx)(i.Wu, {
+                  className: "space-y-3",
+                  children: q.map(e => (0, a.jsxs)("div", {
+                    className: "flex items-start justify-between rounded-lg border border-border/50 p-3 transition-colors hover:bg-muted/30",
+                    children: [(0, a.jsxs)("div", {
+                      children: [(0, a.jsx)("p", {
+                        className: "text-sm font-medium",
+                        children: e.name
+                      }), (0, a.jsxs)("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: [e.dosage, " \xb7 ", e.frequency]
+                      })]
+                    }), (0, a.jsx)("span", {
+                      className: "text-xs text-muted-foreground",
+                      children: e.time
+                    })]
+                  }, e.name))
+                })]
+              }), (0, a.jsxs)(i.Zp, {
+                children: [(0, a.jsx)(i.aR, {
+                  className: "pb-3",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(M.A, {
+                      className: "h-4 w-4 text-chart-3"
+                    }), (0, a.jsx)(i.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Upcoming Appointments"
+                    })]
+                  })
+                }), (0, a.jsx)(i.Wu, {
+                  className: "space-y-3",
+                  children: Z.map(e => (0, a.jsxs)("div", {
+                    className: "flex items-start gap-3 rounded-lg border border-border/50 p-3 transition-colors hover:bg-muted/30",
+                    children: [(0, a.jsx)("div", {
+                      className: "flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-chart-3/10",
+                      children: (0, a.jsx)(M.A, {
+                        className: "h-4 w-4 text-chart-3"
+                      })
+                    }), (0, a.jsxs)("div", {
+                      className: "min-w-0",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-sm font-medium",
+                        children: e.type
+                      }), (0, a.jsxs)("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: [e.date, " at ", e.time]
+                      }), (0, a.jsx)("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: e.doctor
+                      })]
+                    })]
+                  }, e.type))
+                })]
+              })]
+            })]
+          }), (0, a.jsx)(k.lG, {
+            open: N,
+            onOpenChange: f,
+            children: (0, a.jsxs)(k.Cf, {
+              children: [(0, a.jsxs)(k.c7, {
+                children: [(0, a.jsx)(k.L3, {
+                  children: "Add Patient"
+                }), (0, a.jsx)(k.rr, {
+                  children: "Enter the new patient's information below."
+                })]
+              }), (0, a.jsxs)("div", {
+                className: "grid gap-4 py-2",
+                children: [(0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsxs)(D.J, {
+                    htmlFor: "patient-name",
+                    children: ["Full Name ", (0, a.jsx)("span", {
+                      className: "text-destructive",
+                      children: "*"
+                    })]
+                  }), (0, a.jsx)(c.p, {
+                    id: "patient-name",
+                    placeholder: "Patient full name",
+                    value: v,
+                    onChange: e => V(e.target.value)
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid grid-cols-2 gap-4",
+                  children: [(0, a.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, a.jsxs)(D.J, {
+                      htmlFor: "patient-age",
+                      children: ["Age ", (0, a.jsx)("span", {
+                        className: "text-destructive",
+                        children: "*"
+                      })]
+                    }), (0, a.jsx)(c.p, {
+                      id: "patient-age",
+                      type: "number",
+                      placeholder: "Age",
+                      min: 0,
+                      max: 150,
+                      value: I,
+                      onChange: e => K(e.target.value)
+                    })]
+                  }), (0, a.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, a.jsxs)(D.J, {
+                      htmlFor: "patient-gender",
+                      children: ["Gender ", (0, a.jsx)("span", {
+                        className: "text-destructive",
+                        children: "*"
+                      })]
+                    }), (0, a.jsxs)(F.l6, {
+                      value: _,
+                      onValueChange: G,
+                      children: [(0, a.jsx)(F.bq, {
+                        className: "w-full",
+                        id: "patient-gender",
+                        children: (0, a.jsx)(F.yv, {
+                          placeholder: "Select gender"
+                        })
+                      }), (0, a.jsxs)(F.gC, {
+                        children: [(0, a.jsx)(F.eb, {
+                          value: "Male",
+                          children: "Male"
+                        }), (0, a.jsx)(F.eb, {
+                          value: "Female",
+                          children: "Female"
+                        }), (0, a.jsx)(F.eb, {
+                          value: "Other",
+                          children: "Other"
+                        })]
+                      })]
+                    })]
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsxs)(D.J, {
+                    htmlFor: "patient-diagnosis",
+                    children: ["Diagnosis ", (0, a.jsx)("span", {
+                      className: "text-destructive",
+                      children: "*"
+                    })]
+                  }), (0, a.jsx)(c.p, {
+                    id: "patient-diagnosis",
+                    placeholder: "Primary diagnosis",
+                    value: H,
+                    onChange: e => U(e.target.value)
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(D.J, {
+                    htmlFor: "patient-doctor",
+                    children: "Admitting Doctor"
+                  }), (0, a.jsxs)(F.l6, {
+                    value: $,
+                    onValueChange: X,
+                    children: [(0, a.jsx)(F.bq, {
+                      className: "w-full",
+                      id: "patient-doctor",
+                      children: (0, a.jsx)(F.yv, {
+                        placeholder: "Select doctor"
+                      })
+                    }), (0, a.jsx)(F.gC, {
+                      children: Array.from(new Set(T.map(e => e.doctor))).map(e => (0, a.jsx)(F.eb, {
+                        value: e,
+                        children: e
+                      }, e))
+                    })]
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(D.J, {
+                    htmlFor: "patient-room",
+                    children: "Room Number"
+                  }), (0, a.jsx)(c.p, {
+                    id: "patient-room",
+                    placeholder: "e.g. 204-A",
+                    value: Q,
+                    onChange: e => Y(e.target.value)
+                  })]
+                })]
+              }), (0, a.jsxs)(k.Es, {
+                children: [(0, a.jsx)(d.$, {
+                  variant: "outline",
+                  onClick: () => f(!1),
+                  children: "Cancel"
+                }), (0, a.jsx)(d.$, {
+                  disabled: !v.trim() || !I.trim() || !_ || !H.trim(),
+                  onClick: () => {
+                    O.oR.success("Patient added successfully"), f(!1), V(""), K(""), G(""), U(""), X(""), Y("")
+                  },
+                  children: "Add Patient"
+                })]
+              })]
+            })
+          })]
+        })
+      }
+
+      function z({
+        patient: e,
+        isSelected: s,
+        onSelect: t
+      }) {
+        return (0, a.jsx)(i.Zp, {
+          className: (0, R.cn)("cursor-pointer transition-all duration-200 hover:shadow-md hover:border-primary/20", s && "border-primary/40 ring-1 ring-primary/20"),
+          onClick: t,
+          children: (0, a.jsx)(i.Wu, {
+            className: "p-4",
+            children: (0, a.jsxs)("div", {
+              className: "flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between",
+              children: [(0, a.jsxs)("div", {
+                className: "flex items-center gap-3",
+                children: [(0, a.jsx)(n.eu, {
+                  className: "h-10 w-10",
+                  children: (0, a.jsx)(n.q5, {
+                    className: "text-xs font-bold",
+                    children: e.initials
+                  })
+                }), (0, a.jsxs)("div", {
+                  className: "min-w-0",
+                  children: [(0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)("p", {
+                      className: "text-sm font-semibold",
+                      children: e.name
+                    }), (0, a.jsx)(l.E, {
+                      variant: E[e.status],
+                      className: "capitalize text-[10px]",
+                      children: e.status
+                    })]
+                  }), (0, a.jsx)("p", {
+                    className: "text-xs text-muted-foreground",
+                    children: e.diagnosis
+                  })]
+                })]
+              }), (0, a.jsxs)("div", {
+                className: "flex items-center gap-4 text-xs text-muted-foreground sm:gap-6",
+                children: [(0, a.jsxs)("div", {
+                  className: "hidden sm:block",
+                  children: [(0, a.jsx)("p", {
+                    className: "text-[11px] font-medium text-muted-foreground",
+                    children: "Age"
+                  }), (0, a.jsxs)("p", {
+                    className: "font-medium text-foreground",
+                    children: [e.age, " \xb7 ", e.gender]
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "hidden md:block",
+                  children: [(0, a.jsx)("p", {
+                    className: "text-[11px] font-medium text-muted-foreground",
+                    children: "Doctor"
+                  }), (0, a.jsx)("p", {
+                    className: "font-medium text-foreground",
+                    children: e.doctor
+                  })]
+                }), (0, a.jsxs)("div", {
+                  children: [(0, a.jsx)("p", {
+                    className: "text-[11px] font-medium text-muted-foreground",
+                    children: "Room"
+                  }), (0, a.jsx)("p", {
+                    className: "font-medium text-foreground",
+                    children: e.room
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "hidden lg:block",
+                  children: [(0, a.jsx)("p", {
+                    className: "text-[11px] font-medium text-muted-foreground",
+                    children: "ID"
+                  }), (0, a.jsx)("p", {
+                    className: "font-medium text-foreground",
+                    children: e.id
+                  })]
+                })]
+              })]
+            })
+          })
+        })
+      }
+    },
+    74357: (e, s, t) => {
+      Promise.resolve().then(t.bind(t, 12565))
+    }
+  },
+  e => {
+    e.O(0, [9055, 6609, 6264, 7618, 6895, 9883, 3960, 6877, 227, 2363, 6197, 459, 7417, 5319, 8914, 8441, 3794, 7358], () => e(e.s = 74357)), _N_E = e.O()
+  }
+]);

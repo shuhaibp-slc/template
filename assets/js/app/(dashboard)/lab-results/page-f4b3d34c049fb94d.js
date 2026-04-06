@@ -1,0 +1,490 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [1153], {
+    70309: (e, t, s) => {
+      "use strict";
+      s.r(t), s.d(t, {
+        default: () => M
+      });
+      var a = s(95155);
+      s(12115);
+      var l = s(62831),
+        i = s(55078),
+        r = s(35125),
+        n = s(74666),
+        d = s(39055),
+        c = s(1728),
+        m = s(48035),
+        o = s(28408),
+        x = s(32539),
+        u = s(59656),
+        h = s(65671),
+        p = s(43304),
+        b = s(84980),
+        g = s(52484),
+        j = s(41585),
+        f = s(93219),
+        N = s(61878),
+        v = s(64479),
+        y = s(25221);
+      let T = [{
+          title: "Pending Results",
+          value: "23",
+          icon: b.A,
+          color: "text-chart-1",
+          bg: "bg-chart-1/10"
+        }, {
+          title: "Completed Today",
+          value: "48",
+          icon: g.A,
+          color: "text-chart-2",
+          bg: "bg-chart-2/10"
+        }, {
+          title: "Abnormal Flags",
+          value: "8",
+          icon: j.A,
+          color: "text-chart-4",
+          bg: "bg-chart-4/10"
+        }, {
+          title: "Avg Turnaround",
+          value: "4.2 hrs",
+          icon: f.A,
+          color: "text-chart-3",
+          bg: "bg-chart-3/10"
+        }],
+        L = [{
+          patient: "Sarah Johnson",
+          initials: "SJ",
+          test: "Comprehensive Metabolic Panel",
+          sampleDate: "Feb 25, 2026",
+          result: "See panel",
+          range: "Multiple",
+          status: "normal"
+        }, {
+          patient: "James Chen",
+          initials: "JC",
+          test: "HbA1c",
+          sampleDate: "Feb 25, 2026",
+          result: "7.4%",
+          range: "4.0-5.6%",
+          status: "abnormal"
+        }, {
+          patient: "Maria Garcia",
+          initials: "MG",
+          test: "CBC with Differential",
+          sampleDate: "Feb 25, 2026",
+          result: "See panel",
+          range: "Multiple",
+          status: "normal"
+        }, {
+          patient: "Robert Kim",
+          initials: "RK",
+          test: "Lipid Panel",
+          sampleDate: "Feb 24, 2026",
+          result: "LDL 168 mg/dL",
+          range: "<100 mg/dL",
+          status: "critical"
+        }, {
+          patient: "Emily Davis",
+          initials: "ED",
+          test: "TSH",
+          sampleDate: "Feb 24, 2026",
+          result: "2.8 mIU/L",
+          range: "0.4-4.0 mIU/L",
+          status: "normal"
+        }, {
+          patient: "David Thompson",
+          initials: "DT",
+          test: "Basic Metabolic Panel",
+          sampleDate: "Feb 24, 2026",
+          result: "K+ 5.6 mEq/L",
+          range: "3.5-5.0 mEq/L",
+          status: "critical"
+        }, {
+          patient: "Lisa Patel",
+          initials: "LP",
+          test: "Urinalysis",
+          sampleDate: "Feb 23, 2026",
+          result: "Protein trace",
+          range: "Negative",
+          status: "abnormal"
+        }, {
+          patient: "Michael Brown",
+          initials: "MB",
+          test: "Liver Function Panel",
+          sampleDate: "Feb 23, 2026",
+          result: "ALT 52 U/L",
+          range: "7-35 U/L",
+          status: "abnormal"
+        }, {
+          patient: "Anna Nguyen",
+          initials: "AN",
+          test: "CBC with Differential",
+          sampleDate: "Feb 23, 2026",
+          result: "WBC 11.8 K/uL",
+          range: "4.5-11.0 K/uL",
+          status: "abnormal"
+        }, {
+          patient: "Thomas Wright",
+          initials: "TW",
+          test: "HbA1c",
+          sampleDate: "Feb 22, 2026",
+          result: "5.4%",
+          range: "4.0-5.6%",
+          status: "normal"
+        }],
+        w = [{
+          test: "CBC",
+          Mon: 18,
+          Tue: 22,
+          Wed: 20,
+          Thu: 25,
+          Fri: 19
+        }, {
+          test: "BMP",
+          Mon: 14,
+          Tue: 16,
+          Wed: 18,
+          Thu: 15,
+          Fri: 12
+        }, {
+          test: "Lipid",
+          Mon: 10,
+          Tue: 12,
+          Wed: 8,
+          Thu: 14,
+          Fri: 11
+        }, {
+          test: "UA",
+          Mon: 8,
+          Tue: 6,
+          Wed: 9,
+          Thu: 7,
+          Fri: 10
+        }, {
+          test: "TSH",
+          Mon: 6,
+          Tue: 8,
+          Wed: 5,
+          Thu: 9,
+          Fri: 7
+        }, {
+          test: "HbA1c",
+          Mon: 5,
+          Tue: 7,
+          Wed: 6,
+          Thu: 8,
+          Fri: 4
+        }],
+        D = [{
+          patient: "Robert Kim",
+          initials: "RK",
+          test: "LDL Cholesterol",
+          value: "168 mg/dL (ref: <100)",
+          flagged: "12 min ago"
+        }, {
+          patient: "David Thompson",
+          initials: "DT",
+          test: "Potassium",
+          value: "5.6 mEq/L (ref: 3.5-5.0)",
+          flagged: "28 min ago"
+        }, {
+          patient: "Patricia Moore",
+          initials: "PM",
+          test: "Troponin I",
+          value: "0.08 ng/mL (ref: <0.04)",
+          flagged: "1 hr ago"
+        }],
+        F = {
+          normal: "success",
+          abnormal: "warning",
+          critical: "destructive"
+        };
+
+      function A({
+        active: e,
+        payload: t,
+        label: s
+      }) {
+        return e && t?.length ? (0, a.jsxs)("div", {
+          className: "rounded-lg border border-border bg-popover px-3 py-2 shadow-xl",
+          children: [(0, a.jsx)("p", {
+            className: "mb-1 text-xs font-medium text-muted-foreground",
+            children: s
+          }), t.map((e, t) => (0, a.jsxs)("p", {
+            className: "text-sm font-semibold",
+            style: {
+              color: e.color
+            },
+            children: [e.name, ": ", e.value]
+          }, t))]
+        }) : null
+      }
+
+      function M() {
+        return (0, a.jsxs)(a.Fragment, {
+          children: [(0, a.jsxs)("div", {
+            className: "mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+            children: [(0, a.jsxs)("div", {
+              children: [(0, a.jsx)("h1", {
+                className: "text-2xl font-bold tracking-tight",
+                children: "Lab Results"
+              }), (0, a.jsx)("p", {
+                className: "mt-1 text-sm text-muted-foreground",
+                children: "Review laboratory test results, trends, and critical flags."
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "flex items-center gap-2",
+              children: [(0, a.jsxs)(r.$, {
+                variant: "outline",
+                size: "sm",
+                children: [(0, a.jsx)(N.A, {
+                  className: "mr-2 h-4 w-4"
+                }), "Search"]
+              }), (0, a.jsxs)(r.$, {
+                variant: "outline",
+                size: "sm",
+                children: [(0, a.jsx)(v.A, {
+                  className: "mr-2 h-4 w-4"
+                }), "Filter"]
+              })]
+            })]
+          }), (0, a.jsx)("div", {
+            className: "grid grid-cols-2 gap-4 xl:grid-cols-4",
+            children: T.map(e => {
+              let t = e.icon;
+              return (0, a.jsx)(l.Zp, {
+                children: (0, a.jsx)(l.Wu, {
+                  className: "p-5",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-start justify-between",
+                    children: [(0, a.jsxs)("div", {
+                      className: "space-y-2",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-xs font-medium text-muted-foreground",
+                        children: e.title
+                      }), (0, a.jsx)("p", {
+                        className: "text-2xl font-bold tracking-tight",
+                        children: e.value
+                      })]
+                    }), (0, a.jsx)("div", {
+                      className: (0, d.cn)("flex h-10 w-10 items-center justify-center rounded-xl", e.bg),
+                      children: (0, a.jsx)(t, {
+                        className: (0, d.cn)("h-5 w-5", e.color)
+                      })
+                    })]
+                  })
+                })
+              }, e.title)
+            })
+          }), (0, a.jsxs)("div", {
+            className: "mt-6 grid grid-cols-1 gap-4 xl:grid-cols-12",
+            children: [(0, a.jsxs)(l.Zp, {
+              className: "xl:col-span-8",
+              children: [(0, a.jsxs)(l.aR, {
+                className: "pb-4",
+                children: [(0, a.jsx)(l.ZB, {
+                  className: "text-base font-semibold",
+                  children: "Recent Results"
+                }), (0, a.jsx)(l.BT, {
+                  children: "Laboratory test results from the past week"
+                })]
+              }), (0, a.jsx)(l.Wu, {
+                children: (0, a.jsx)("div", {
+                  className: "overflow-x-auto",
+                  children: (0, a.jsxs)("table", {
+                    className: "w-full",
+                    children: [(0, a.jsx)("thead", {
+                      children: (0, a.jsxs)("tr", {
+                        className: "border-b border-border",
+                        children: [(0, a.jsx)("th", {
+                          className: "pb-3 text-start text-xs font-medium text-muted-foreground",
+                          children: "Patient"
+                        }), (0, a.jsx)("th", {
+                          className: "pb-3 text-start text-xs font-medium text-muted-foreground",
+                          children: "Test Name"
+                        }), (0, a.jsx)("th", {
+                          className: "hidden pb-3 text-start text-xs font-medium text-muted-foreground sm:table-cell",
+                          children: "Sample Date"
+                        }), (0, a.jsx)("th", {
+                          className: "hidden pb-3 text-start text-xs font-medium text-muted-foreground md:table-cell",
+                          children: "Result"
+                        }), (0, a.jsx)("th", {
+                          className: "hidden pb-3 text-start text-xs font-medium text-muted-foreground lg:table-cell",
+                          children: "Reference Range"
+                        }), (0, a.jsx)("th", {
+                          className: "pb-3 text-end text-xs font-medium text-muted-foreground",
+                          children: "Status"
+                        })]
+                      })
+                    }), (0, a.jsx)("tbody", {
+                      children: L.map((e, t) => (0, a.jsxs)("tr", {
+                        className: "border-b border-border/50 last:border-0 transition-colors hover:bg-muted/30",
+                        children: [(0, a.jsx)("td", {
+                          className: "py-3",
+                          children: (0, a.jsxs)("div", {
+                            className: "flex items-center gap-2.5",
+                            children: [(0, a.jsx)(n.eu, {
+                              className: "h-7 w-7",
+                              children: (0, a.jsx)(n.q5, {
+                                className: "text-[10px] font-bold",
+                                children: e.initials
+                              })
+                            }), (0, a.jsx)("span", {
+                              className: "text-sm font-medium",
+                              children: e.patient
+                            })]
+                          })
+                        }), (0, a.jsx)("td", {
+                          className: "py-3",
+                          children: (0, a.jsxs)("div", {
+                            className: "flex items-center gap-1.5",
+                            children: [(0, a.jsx)(y.A, {
+                              className: "h-3.5 w-3.5 text-muted-foreground"
+                            }), (0, a.jsx)("span", {
+                              className: "text-sm",
+                              children: e.test
+                            })]
+                          })
+                        }), (0, a.jsx)("td", {
+                          className: "hidden py-3 text-sm text-muted-foreground sm:table-cell",
+                          children: e.sampleDate
+                        }), (0, a.jsx)("td", {
+                          className: "hidden py-3 text-sm font-semibold md:table-cell",
+                          children: e.result
+                        }), (0, a.jsx)("td", {
+                          className: "hidden py-3 text-sm text-muted-foreground lg:table-cell",
+                          children: e.range
+                        }), (0, a.jsx)("td", {
+                          className: "py-3 text-end",
+                          children: (0, a.jsx)(i.E, {
+                            variant: F[e.status],
+                            className: "text-[10px] capitalize",
+                            children: e.status
+                          })
+                        })]
+                      }, t))
+                    })]
+                  })
+                })
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "space-y-4 xl:col-span-4",
+              children: [(0, a.jsxs)(l.Zp, {
+                children: [(0, a.jsxs)(l.aR, {
+                  className: "pb-2",
+                  children: [(0, a.jsx)(l.ZB, {
+                    className: "text-base font-semibold",
+                    children: "Test Volume"
+                  }), (0, a.jsx)(l.BT, {
+                    children: "Tests processed by type this week"
+                  })]
+                }), (0, a.jsx)(l.Wu, {
+                  className: "pt-4",
+                  children: (0, a.jsx)(c.u, {
+                    width: "100%",
+                    height: 240,
+                    children: (0, a.jsxs)(m.E, {
+                      data: w,
+                      layout: "vertical",
+                      barCategoryGap: "20%",
+                      children: [(0, a.jsx)(o.d, {
+                        strokeDasharray: "3 3",
+                        horizontal: !1,
+                        stroke: "var(--border)",
+                        strokeOpacity: .5
+                      }), (0, a.jsx)(x.W, {
+                        type: "number",
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 11
+                        }
+                      }), (0, a.jsx)(u.h, {
+                        dataKey: "test",
+                        type: "category",
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 11
+                        },
+                        width: 48
+                      }), (0, a.jsx)(h.m, {
+                        content: (0, a.jsx)(A, {}),
+                        cursor: {
+                          fill: "var(--muted)",
+                          opacity: .3
+                        }
+                      }), (0, a.jsx)(p.yP, {
+                        dataKey: "Fri",
+                        name: "Friday",
+                        fill: "var(--chart-1)",
+                        radius: [0, 6, 6, 0],
+                        maxBarSize: 20
+                      })]
+                    })
+                  })
+                })]
+              }), (0, a.jsxs)(l.Zp, {
+                children: [(0, a.jsxs)(l.aR, {
+                  className: "pb-4",
+                  children: [(0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(j.A, {
+                      className: "h-4 w-4 text-destructive"
+                    }), (0, a.jsx)(l.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Critical Results"
+                    })]
+                  }), (0, a.jsx)(l.BT, {
+                    children: "Results requiring immediate attention"
+                  })]
+                }), (0, a.jsx)(l.Wu, {
+                  className: "space-y-3",
+                  children: D.map((e, t) => (0, a.jsxs)("div", {
+                    className: "rounded-lg border border-destructive/30 bg-destructive/5 p-3",
+                    children: [(0, a.jsxs)("div", {
+                      className: "flex items-center gap-2.5",
+                      children: [(0, a.jsx)(n.eu, {
+                        className: "h-8 w-8",
+                        children: (0, a.jsx)(n.q5, {
+                          className: "text-[10px] font-bold",
+                          children: e.initials
+                        })
+                      }), (0, a.jsxs)("div", {
+                        className: "flex-1",
+                        children: [(0, a.jsx)("p", {
+                          className: "text-sm font-medium",
+                          children: e.patient
+                        }), (0, a.jsx)("p", {
+                          className: "text-xs font-semibold text-destructive",
+                          children: e.test
+                        })]
+                      })]
+                    }), (0, a.jsxs)("div", {
+                      className: "mt-2 flex items-center justify-between",
+                      children: [(0, a.jsx)("span", {
+                        className: "text-xs text-muted-foreground",
+                        children: e.value
+                      }), (0, a.jsx)("span", {
+                        className: "text-[10px] text-muted-foreground",
+                        children: e.flagged
+                      })]
+                    })]
+                  }, t))
+                })]
+              })]
+            })]
+          })]
+        })
+      }
+    },
+    79433: (e, t, s) => {
+      Promise.resolve().then(s.bind(s, 70309))
+    }
+  },
+  e => {
+    e.O(0, [9055, 227, 2363, 6197, 459, 3304, 3743, 8441, 3794, 7358], () => e(e.s = 79433)), _N_E = e.O()
+  }
+]);

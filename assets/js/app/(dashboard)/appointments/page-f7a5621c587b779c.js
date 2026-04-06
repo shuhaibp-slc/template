@@ -1,0 +1,569 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [3481], {
+    41393: (e, a, s) => {
+      Promise.resolve().then(s.bind(s, 86849))
+    },
+    86849: (e, a, s) => {
+      "use strict";
+      s.r(a), s.d(a, {
+        default: () => k
+      });
+      var t = s(95155),
+        i = s(12115),
+        l = s(62831),
+        r = s(55078),
+        n = s(35125),
+        c = s(74666),
+        d = s(36877),
+        o = s(47385),
+        h = s(50259),
+        m = s(81746),
+        x = s(66609),
+        p = s(39055),
+        u = s(24538),
+        j = s(45005),
+        g = s(57420),
+        N = s(84980),
+        v = s(41641),
+        b = s(21362),
+        f = s(51914),
+        w = s(42869);
+      let y = [{
+          id: "apt-1",
+          patientName: "Maria Santos",
+          patientInitials: "MS",
+          type: "in-person",
+          doctorName: "Dr. James Wilson",
+          startHour: 8,
+          startMinute: 0,
+          durationMinutes: 30
+        }, {
+          id: "apt-2",
+          patientName: "Robert Chen",
+          patientInitials: "RC",
+          type: "telehealth",
+          doctorName: "Dr. Sarah Patel",
+          startHour: 8,
+          startMinute: 30,
+          durationMinutes: 45
+        }, {
+          id: "apt-3",
+          patientName: "Emily Rodriguez",
+          patientInitials: "ER",
+          type: "follow-up",
+          doctorName: "Dr. James Wilson",
+          startHour: 9,
+          startMinute: 0,
+          durationMinutes: 30
+        }, {
+          id: "apt-4",
+          patientName: "David Thompson",
+          patientInitials: "DT",
+          type: "in-person",
+          doctorName: "Dr. Lisa Chang",
+          startHour: 9,
+          startMinute: 0,
+          durationMinutes: 60,
+          column: 1
+        }, {
+          id: "apt-5",
+          patientName: "Sophia Andersson",
+          patientInitials: "SA",
+          type: "telehealth",
+          doctorName: "Dr. Sarah Patel",
+          startHour: 10,
+          startMinute: 30,
+          durationMinutes: 30
+        }, {
+          id: "apt-6",
+          patientName: "James Okafor",
+          patientInitials: "JO",
+          type: "in-person",
+          doctorName: "Dr. Lisa Chang",
+          startHour: 11,
+          startMinute: 0,
+          durationMinutes: 45
+        }, {
+          id: "apt-7",
+          patientName: "Aisha Mahmoud",
+          patientInitials: "AM",
+          type: "follow-up",
+          doctorName: "Dr. James Wilson",
+          startHour: 13,
+          startMinute: 0,
+          durationMinutes: 30
+        }, {
+          id: "apt-8",
+          patientName: "Michael Park",
+          patientInitials: "MP",
+          type: "in-person",
+          doctorName: "Dr. Sarah Patel",
+          startHour: 14,
+          startMinute: 0,
+          durationMinutes: 60
+        }, {
+          id: "apt-9",
+          patientName: "Laura Bennett",
+          patientInitials: "LB",
+          type: "telehealth",
+          doctorName: "Dr. Lisa Chang",
+          startHour: 14,
+          startMinute: 0,
+          durationMinutes: 30,
+          column: 1
+        }, {
+          id: "apt-10",
+          patientName: "Carlos Diaz",
+          patientInitials: "CD",
+          type: "in-person",
+          doctorName: "Dr. James Wilson",
+          startHour: 16,
+          startMinute: 0,
+          durationMinutes: 45
+        }],
+        C = [{
+          id: "wp-1",
+          name: "Maria Santos",
+          initials: "MS",
+          waitTime: "12 min",
+          checkInTime: "7:48 AM",
+          status: "Checked In"
+        }, {
+          id: "wp-2",
+          name: "David Thompson",
+          initials: "DT",
+          waitTime: "25 min",
+          checkInTime: "8:35 AM",
+          status: "In Consultation"
+        }, {
+          id: "wp-3",
+          name: "Emily Rodriguez",
+          initials: "ER",
+          waitTime: "8 min",
+          checkInTime: "8:52 AM",
+          status: "Checked In"
+        }, {
+          id: "wp-4",
+          name: "James Okafor",
+          initials: "JO",
+          waitTime: "3 min",
+          checkInTime: "8:57 AM",
+          status: "Checked In"
+        }],
+        M = Array.from({
+          length: 10
+        }, (e, a) => a + 8),
+        A = {
+          "in-person": {
+            label: "In-Person",
+            borderColor: "border-l-[hsl(var(--chart-1))]",
+            badgeClass: "bg-[hsl(var(--chart-1))]/15 text-[hsl(var(--chart-1))] hover:bg-[hsl(var(--chart-1))]/15",
+            icon: u.A
+          },
+          telehealth: {
+            label: "Telehealth",
+            borderColor: "border-l-[hsl(var(--chart-2))]",
+            badgeClass: "bg-[hsl(var(--chart-2))]/15 text-[hsl(var(--chart-2))] hover:bg-[hsl(var(--chart-2))]/15",
+            icon: j.A
+          },
+          "follow-up": {
+            label: "Follow-up",
+            borderColor: "border-l-[hsl(var(--chart-3))]",
+            badgeClass: "bg-[hsl(var(--chart-3))]/15 text-[hsl(var(--chart-3))] hover:bg-[hsl(var(--chart-3))]/15",
+            icon: g.A
+          }
+        },
+        D = [{
+          label: "Today's Total",
+          value: "24",
+          icon: g.A,
+          color: "text-primary",
+          bg: "bg-primary/10"
+        }, {
+          label: "In-Person",
+          value: "16",
+          icon: u.A,
+          color: "text-[hsl(var(--chart-1))]",
+          bg: "bg-[hsl(var(--chart-1))]/10"
+        }, {
+          label: "Telehealth",
+          value: "8",
+          icon: j.A,
+          color: "text-[hsl(var(--chart-2))]",
+          bg: "bg-[hsl(var(--chart-2))]/10"
+        }, {
+          label: "Cancelled",
+          value: "2",
+          icon: N.A,
+          color: "text-destructive",
+          bg: "bg-destructive/10"
+        }];
+
+      function k() {
+        let [e] = (0, i.useState)("Today, Feb 26 2026"), [a, s] = (0, i.useState)(!1), [u, j] = (0, i.useState)(""), [g, k] = (0, i.useState)(""), [I, S] = (0, i.useState)(""), [T, H] = (0, i.useState)(""), [J, P] = (0, i.useState)("in-person"), [E, F] = (0, i.useState)("30");
+        return (0, t.jsxs)(t.Fragment, {
+          children: [(0, t.jsxs)("div", {
+            className: "mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+            children: [(0, t.jsxs)("div", {
+              children: [(0, t.jsx)("h1", {
+                className: "text-2xl font-bold tracking-tight",
+                children: "Appointments"
+              }), (0, t.jsx)("p", {
+                className: "mt-1 text-sm text-muted-foreground",
+                children: "Manage your daily appointment schedule"
+              })]
+            }), (0, t.jsxs)("div", {
+              className: "flex items-center gap-3",
+              children: [(0, t.jsxs)("div", {
+                className: "flex items-center gap-1.5 rounded-lg border border-border bg-card px-2 py-1.5",
+                children: [(0, t.jsx)(n.$, {
+                  variant: "ghost",
+                  size: "icon",
+                  className: "h-7 w-7",
+                  "aria-label": "Previous day",
+                  children: (0, t.jsx)(v.A, {
+                    className: "h-4 w-4"
+                  })
+                }), (0, t.jsx)("span", {
+                  className: "min-w-[160px] text-center text-sm font-medium",
+                  children: e
+                }), (0, t.jsx)(n.$, {
+                  variant: "ghost",
+                  size: "icon",
+                  className: "h-7 w-7",
+                  "aria-label": "Next day",
+                  children: (0, t.jsx)(b.A, {
+                    className: "h-4 w-4"
+                  })
+                })]
+              }), (0, t.jsxs)(n.$, {
+                onClick: () => s(!0),
+                children: [(0, t.jsx)(f.A, {
+                  className: "me-2 h-4 w-4"
+                }), "New Appointment"]
+              })]
+            })]
+          }), (0, t.jsx)("div", {
+            className: "mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4",
+            children: D.map(e => (0, t.jsx)(l.Zp, {
+              children: (0, t.jsxs)(l.Wu, {
+                className: "flex items-center gap-4 p-4",
+                children: [(0, t.jsx)("div", {
+                  className: (0, p.cn)("flex h-10 w-10 shrink-0 items-center justify-center rounded-lg", e.bg),
+                  children: (0, t.jsx)(e.icon, {
+                    className: (0, p.cn)("h-5 w-5", e.color)
+                  })
+                }), (0, t.jsxs)("div", {
+                  children: [(0, t.jsx)("p", {
+                    className: "text-2xl font-bold",
+                    children: e.value
+                  }), (0, t.jsx)("p", {
+                    className: "text-xs text-muted-foreground",
+                    children: e.label
+                  })]
+                })]
+              })
+            }, e.label))
+          }), (0, t.jsxs)("div", {
+            className: "grid grid-cols-1 gap-6 xl:grid-cols-12",
+            children: [(0, t.jsxs)(l.Zp, {
+              className: "xl:col-span-8",
+              children: [(0, t.jsx)(l.aR, {
+                className: "pb-4",
+                children: (0, t.jsx)(l.ZB, {
+                  className: "text-base font-semibold",
+                  children: "Day Schedule"
+                })
+              }), (0, t.jsx)(l.Wu, {
+                className: "px-4 pb-4 sm:px-6 sm:pb-6",
+                children: (0, t.jsx)("div", {
+                  className: "relative",
+                  children: M.map(e => {
+                    let a = y.filter(a => a.startHour === e),
+                      s = y.filter(a => a.startHour < e && a.startHour + a.durationMinutes / 60 > e),
+                      i = a.length > 0,
+                      l = s.length > 0;
+                    return (0, t.jsxs)("div", {
+                      className: "group flex min-h-[80px] border-t border-border",
+                      children: [(0, t.jsxs)("div", {
+                        className: "flex w-[72px] shrink-0 flex-col items-end pe-3 pt-2 sm:w-[88px]",
+                        children: [(0, t.jsx)("span", {
+                          className: "text-xs font-medium text-muted-foreground",
+                          children: 0 === e || 12 === e ? "12:00" : e > 12 ? `${e-12}:00` : `${e}:00`
+                        }), (0, t.jsx)("span", {
+                          className: "text-[10px] text-muted-foreground/60",
+                          children: e >= 12 ? "PM" : "AM"
+                        })]
+                      }), (0, t.jsxs)("div", {
+                        className: "relative flex flex-1 gap-2 py-1.5 ps-2",
+                        children: [!i && !l && (0, t.jsx)("div", {
+                          className: "flex flex-1 items-center",
+                          children: (0, t.jsx)("span", {
+                            className: "text-xs text-muted-foreground/40 opacity-0 transition-opacity group-hover:opacity-100",
+                            children: "No appointments"
+                          })
+                        }), a.map(e => {
+                          let a = A[e.type],
+                            s = a.icon,
+                            i = e.durationMinutes / 60;
+                          return (0, t.jsxs)("div", {
+                            className: (0, p.cn)("flex min-w-0 flex-1 cursor-pointer flex-col rounded-lg border-l-[3px] bg-card p-3 shadow-sm ring-1 ring-border transition-shadow hover:shadow-md", a.borderColor),
+                            style: {
+                              minHeight: `${Math.max(72,80*i)}px`
+                            },
+                            children: [(0, t.jsxs)("div", {
+                              className: "flex items-start gap-2.5",
+                              children: [(0, t.jsx)(c.eu, {
+                                className: "h-8 w-8 shrink-0",
+                                children: (0, t.jsx)(c.q5, {
+                                  className: "text-[10px] font-medium",
+                                  children: e.patientInitials
+                                })
+                              }), (0, t.jsxs)("div", {
+                                className: "min-w-0 flex-1",
+                                children: [(0, t.jsx)("p", {
+                                  className: "truncate text-sm font-medium",
+                                  children: e.patientName
+                                }), (0, t.jsx)("div", {
+                                  className: "mt-1 flex flex-wrap items-center gap-1.5",
+                                  children: (0, t.jsxs)(r.E, {
+                                    variant: "secondary",
+                                    className: (0, p.cn)("gap-1 text-[10px] font-medium", a.badgeClass),
+                                    children: [(0, t.jsx)(s, {
+                                      className: "h-3 w-3"
+                                    }), a.label]
+                                  })
+                                })]
+                              })]
+                            }), (0, t.jsxs)("div", {
+                              className: "mt-auto flex items-center gap-3 pt-2 text-[11px] text-muted-foreground",
+                              children: [(0, t.jsxs)("span", {
+                                className: "flex items-center gap-1",
+                                children: [(0, t.jsx)(w.A, {
+                                  className: "h-3 w-3"
+                                }), e.doctorName]
+                              }), (0, t.jsxs)("span", {
+                                className: "flex items-center gap-1",
+                                children: [(0, t.jsx)(N.A, {
+                                  className: "h-3 w-3"
+                                }), e.durationMinutes, " min"]
+                              })]
+                            })]
+                          }, e.id)
+                        })]
+                      })]
+                    }, e)
+                  })
+                })
+              })]
+            }), (0, t.jsx)("div", {
+              className: "xl:col-span-4",
+              children: (0, t.jsxs)(l.Zp, {
+                children: [(0, t.jsx)(l.aR, {
+                  className: "pb-4",
+                  children: (0, t.jsxs)("div", {
+                    className: "flex items-center justify-between",
+                    children: [(0, t.jsx)(l.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Waiting Room"
+                    }), (0, t.jsxs)(r.E, {
+                      variant: "secondary",
+                      className: "font-medium",
+                      children: [C.length, " patients"]
+                    })]
+                  })
+                }), (0, t.jsx)(l.Wu, {
+                  className: "space-y-4 px-4 pb-4 sm:px-6 sm:pb-6",
+                  children: C.map(e => (0, t.jsxs)("div", {
+                    className: "flex items-start gap-3 rounded-lg border border-border p-3 transition-colors hover:bg-muted/50",
+                    children: [(0, t.jsx)(c.eu, {
+                      className: "h-9 w-9 shrink-0",
+                      children: (0, t.jsx)(c.q5, {
+                        className: "text-xs font-medium",
+                        children: e.initials
+                      })
+                    }), (0, t.jsxs)("div", {
+                      className: "min-w-0 flex-1",
+                      children: [(0, t.jsxs)("div", {
+                        className: "flex items-center justify-between gap-2",
+                        children: [(0, t.jsx)("p", {
+                          className: "truncate text-sm font-medium",
+                          children: e.name
+                        }), (0, t.jsx)(r.E, {
+                          variant: "In Consultation" === e.status ? "default" : "secondary",
+                          className: "shrink-0 text-[10px]",
+                          children: e.status
+                        })]
+                      }), (0, t.jsxs)("div", {
+                        className: "mt-1.5 flex items-center gap-3 text-xs text-muted-foreground",
+                        children: [(0, t.jsxs)("span", {
+                          className: "flex items-center gap-1",
+                          children: [(0, t.jsx)(N.A, {
+                            className: "h-3 w-3"
+                          }), e.waitTime]
+                        }), (0, t.jsxs)("span", {
+                          className: "text-muted-foreground/60",
+                          children: ["Checked in at ", e.checkInTime]
+                        })]
+                      })]
+                    })]
+                  }, e.id))
+                })]
+              })
+            })]
+          }), (0, t.jsx)(d.lG, {
+            open: a,
+            onOpenChange: s,
+            children: (0, t.jsxs)(d.Cf, {
+              className: "sm:max-w-[480px]",
+              children: [(0, t.jsxs)(d.c7, {
+                children: [(0, t.jsx)(d.L3, {
+                  children: "New Appointment"
+                }), (0, t.jsx)(d.rr, {
+                  children: "Schedule a new appointment. Fill in the details below."
+                })]
+              }), (0, t.jsxs)("div", {
+                className: "grid gap-4 py-4",
+                children: [(0, t.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, t.jsx)(o.J, {
+                    htmlFor: "patient-name",
+                    children: "Patient Name"
+                  }), (0, t.jsx)(h.p, {
+                    id: "patient-name",
+                    placeholder: "Enter patient name",
+                    value: u,
+                    onChange: e => j(e.target.value)
+                  })]
+                }), (0, t.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, t.jsx)(o.J, {
+                    htmlFor: "doctor",
+                    children: "Doctor"
+                  }), (0, t.jsxs)(m.l6, {
+                    value: g,
+                    onValueChange: k,
+                    children: [(0, t.jsx)(m.bq, {
+                      id: "doctor",
+                      children: (0, t.jsx)(m.yv, {
+                        placeholder: "Select a doctor"
+                      })
+                    }), (0, t.jsxs)(m.gC, {
+                      children: [(0, t.jsx)(m.eb, {
+                        value: "Dr. Wilson",
+                        children: "Dr. Wilson"
+                      }), (0, t.jsx)(m.eb, {
+                        value: "Dr. Patel",
+                        children: "Dr. Patel"
+                      }), (0, t.jsx)(m.eb, {
+                        value: "Dr. Chang",
+                        children: "Dr. Chang"
+                      })]
+                    })]
+                  })]
+                }), (0, t.jsxs)("div", {
+                  className: "grid grid-cols-2 gap-4",
+                  children: [(0, t.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, t.jsx)(o.J, {
+                      htmlFor: "date",
+                      children: "Date"
+                    }), (0, t.jsx)(h.p, {
+                      id: "date",
+                      type: "date",
+                      value: I,
+                      onChange: e => S(e.target.value)
+                    })]
+                  }), (0, t.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, t.jsx)(o.J, {
+                      htmlFor: "time",
+                      children: "Time"
+                    }), (0, t.jsx)(h.p, {
+                      id: "time",
+                      type: "time",
+                      value: T,
+                      onChange: e => H(e.target.value)
+                    })]
+                  })]
+                }), (0, t.jsxs)("div", {
+                  className: "grid grid-cols-2 gap-4",
+                  children: [(0, t.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, t.jsx)(o.J, {
+                      htmlFor: "type",
+                      children: "Type"
+                    }), (0, t.jsxs)(m.l6, {
+                      value: J,
+                      onValueChange: e => P(e),
+                      children: [(0, t.jsx)(m.bq, {
+                        id: "type",
+                        children: (0, t.jsx)(m.yv, {
+                          placeholder: "Select type"
+                        })
+                      }), (0, t.jsxs)(m.gC, {
+                        children: [(0, t.jsx)(m.eb, {
+                          value: "in-person",
+                          children: "In-Person"
+                        }), (0, t.jsx)(m.eb, {
+                          value: "telehealth",
+                          children: "Telehealth"
+                        }), (0, t.jsx)(m.eb, {
+                          value: "follow-up",
+                          children: "Follow-up"
+                        })]
+                      })]
+                    })]
+                  }), (0, t.jsxs)("div", {
+                    className: "grid gap-2",
+                    children: [(0, t.jsx)(o.J, {
+                      htmlFor: "duration",
+                      children: "Duration"
+                    }), (0, t.jsxs)(m.l6, {
+                      value: E,
+                      onValueChange: F,
+                      children: [(0, t.jsx)(m.bq, {
+                        id: "duration",
+                        children: (0, t.jsx)(m.yv, {
+                          placeholder: "Select duration"
+                        })
+                      }), (0, t.jsxs)(m.gC, {
+                        children: [(0, t.jsx)(m.eb, {
+                          value: "15",
+                          children: "15 min"
+                        }), (0, t.jsx)(m.eb, {
+                          value: "30",
+                          children: "30 min"
+                        }), (0, t.jsx)(m.eb, {
+                          value: "45",
+                          children: "45 min"
+                        }), (0, t.jsx)(m.eb, {
+                          value: "60",
+                          children: "60 min"
+                        })]
+                      })]
+                    })]
+                  })]
+                })]
+              }), (0, t.jsxs)(d.Es, {
+                children: [(0, t.jsx)(n.$, {
+                  variant: "outline",
+                  onClick: () => s(!1),
+                  children: "Cancel"
+                }), (0, t.jsx)(n.$, {
+                  onClick: function() {
+                    x.oR.success("Appointment scheduled successfully"), s(!1), j(""), k(""), S(""), H(""), P("in-person"), F("30")
+                  },
+                  children: "Schedule Appointment"
+                })]
+              })]
+            })
+          })]
+        })
+      }
+    }
+  },
+  e => {
+    e.O(0, [9055, 6609, 6264, 7618, 6895, 9883, 3960, 6877, 5583, 8441, 3794, 7358], () => e(e.s = 41393)), _N_E = e.O()
+  }
+]);

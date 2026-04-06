@@ -1,0 +1,784 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [159], {
+    61299: (e, s, t) => {
+      Promise.resolve().then(t.bind(t, 92759))
+    },
+    92759: (e, s, t) => {
+      "use strict";
+      t.r(s), t.d(s, {
+        default: () => W
+      });
+      var a = t(95155),
+        r = t(12115),
+        l = t(62831),
+        i = t(55078),
+        n = t(35125),
+        c = t(50259),
+        d = t(36877),
+        o = t(47385),
+        m = t(81746),
+        h = t(66609),
+        x = t(74666),
+        f = t(99656),
+        g = t(97417),
+        u = t(39055),
+        p = t(7810),
+        j = t(10184),
+        v = t(57420),
+        b = t(439),
+        N = t(61878),
+        y = t(51914),
+        w = t(21283),
+        S = t(84980),
+        C = t(85118),
+        E = t(92289),
+        M = t(94290),
+        A = t(1728),
+        k = t(48035),
+        D = t(32539),
+        L = t(59656),
+        O = t(65671),
+        P = t(43304);
+      let R = [{
+          title: "Total Staff",
+          value: "186",
+          icon: p.A,
+          color: "text-chart-1",
+          bg: "bg-chart-1/10"
+        }, {
+          title: "On Duty",
+          value: "64",
+          icon: j.A,
+          color: "text-chart-3",
+          bg: "bg-chart-3/10"
+        }, {
+          title: "On Leave",
+          value: "8",
+          icon: v.A,
+          color: "text-chart-5",
+          bg: "bg-chart-5/10"
+        }, {
+          title: "Departments",
+          value: "12",
+          icon: b.A,
+          color: "text-chart-4",
+          bg: "bg-chart-4/10"
+        }],
+        F = [{
+          id: "S-001",
+          name: "Dr. Sarah Mitchell",
+          initials: "SM",
+          role: "doctor",
+          title: "Cardiologist",
+          department: "Cardiology",
+          status: "on-duty",
+          phone: "(555) 201-3344",
+          email: "s.mitchell@hospital.org",
+          rating: 4.9,
+          yearsExperience: 14,
+          shift: "Morning",
+          avatarColor: "bg-chart-1"
+        }, {
+          id: "S-002",
+          name: "Dr. Robert Kim",
+          initials: "RK",
+          role: "doctor",
+          title: "Neurologist",
+          department: "Neurology",
+          status: "on-duty",
+          phone: "(555) 201-5567",
+          email: "r.kim@hospital.org",
+          rating: 4.8,
+          yearsExperience: 11,
+          shift: "Morning",
+          avatarColor: "bg-chart-2"
+        }, {
+          id: "S-003",
+          name: "Dr. Angela Park",
+          initials: "AP",
+          role: "doctor",
+          title: "Radiologist",
+          department: "Radiology",
+          status: "off-duty",
+          phone: "(555) 201-7789",
+          email: "a.park@hospital.org",
+          rating: 4.7,
+          yearsExperience: 9,
+          shift: "Evening",
+          avatarColor: "bg-chart-3"
+        }, {
+          id: "S-004",
+          name: "Dr. Michael Torres",
+          initials: "MT",
+          role: "doctor",
+          title: "Orthopedic Surgeon",
+          department: "Orthopedics",
+          status: "on-duty",
+          phone: "(555) 201-9901",
+          email: "m.torres@hospital.org",
+          rating: 4.8,
+          yearsExperience: 16,
+          shift: "Morning",
+          avatarColor: "bg-chart-4"
+        }, {
+          id: "S-005",
+          name: "Maria Santos",
+          initials: "MS",
+          role: "nurse",
+          title: "Head Nurse",
+          department: "Emergency",
+          status: "on-duty",
+          phone: "(555) 201-1122",
+          email: "m.santos@hospital.org",
+          rating: 4.9,
+          yearsExperience: 12,
+          shift: "Morning",
+          avatarColor: "bg-chart-5"
+        }, {
+          id: "S-006",
+          name: "James Okafor",
+          initials: "JO",
+          role: "nurse",
+          title: "ICU Nurse",
+          department: "Intensive Care",
+          status: "on-duty",
+          phone: "(555) 201-3344",
+          email: "j.okafor@hospital.org",
+          rating: 4.6,
+          yearsExperience: 7,
+          shift: "Night",
+          avatarColor: "bg-chart-1"
+        }, {
+          id: "S-007",
+          name: "Priya Sharma",
+          initials: "PS",
+          role: "nurse",
+          title: "Pediatric Nurse",
+          department: "Pediatrics",
+          status: "on-leave",
+          phone: "(555) 201-5566",
+          email: "p.sharma@hospital.org",
+          rating: 4.7,
+          yearsExperience: 5,
+          shift: "Morning",
+          avatarColor: "bg-chart-2"
+        }, {
+          id: "S-008",
+          name: "David Thompson",
+          initials: "DT",
+          role: "admin",
+          title: "Office Manager",
+          department: "Administration",
+          status: "on-duty",
+          phone: "(555) 201-7788",
+          email: "d.thompson@hospital.org",
+          rating: 4.5,
+          yearsExperience: 8,
+          shift: "Morning",
+          avatarColor: "bg-chart-3"
+        }, {
+          id: "S-009",
+          name: "Laura Bennett",
+          initials: "LB",
+          role: "admin",
+          title: "Billing Coordinator",
+          department: "Finance",
+          status: "off-duty",
+          phone: "(555) 201-9900",
+          email: "l.bennett@hospital.org",
+          rating: 4.6,
+          yearsExperience: 6,
+          shift: "Evening",
+          avatarColor: "bg-chart-4"
+        }],
+        J = {
+          "on-duty": {
+            label: "On Duty",
+            variant: "success"
+          },
+          "off-duty": {
+            label: "Off Duty",
+            variant: "secondary"
+          },
+          "on-leave": {
+            label: "On Leave",
+            variant: "warning"
+          }
+        },
+        Z = [{
+          department: "Emergency",
+          count: 32
+        }, {
+          department: "Cardiology",
+          count: 24
+        }, {
+          department: "Pediatrics",
+          count: 22
+        }, {
+          department: "Neurology",
+          count: 18
+        }, {
+          department: "Orthopedics",
+          count: 16
+        }, {
+          department: "Radiology",
+          count: 14
+        }],
+        B = [{
+          time: "6:00 AM",
+          label: "Morning shift begins",
+          staff: "42 staff members",
+          color: "bg-chart-1"
+        }, {
+          time: "8:00 AM",
+          label: "Department rounds",
+          staff: "All doctors on duty",
+          color: "bg-chart-2"
+        }, {
+          time: "2:00 PM",
+          label: "Evening shift begins",
+          staff: "38 staff members",
+          color: "bg-chart-3"
+        }, {
+          time: "4:00 PM",
+          label: "Shift handover meeting",
+          staff: "Department leads",
+          color: "bg-chart-4"
+        }, {
+          time: "10:00 PM",
+          label: "Night shift begins",
+          staff: "24 staff members",
+          color: "bg-chart-5"
+        }];
+
+      function T({
+        active: e,
+        payload: s,
+        label: t
+      }) {
+        return e && s?.length ? (0, a.jsxs)("div", {
+          className: "rounded-lg border border-border bg-popover px-3 py-2 shadow-xl",
+          children: [(0, a.jsx)("p", {
+            className: "mb-1 text-xs font-medium text-muted-foreground",
+            children: t
+          }), s.map((e, s) => (0, a.jsxs)("p", {
+            className: "text-sm font-semibold",
+            style: {
+              color: e.color
+            },
+            children: [e.value, " staff"]
+          }, s))]
+        }) : null
+      }
+
+      function W() {
+        let [e, s] = (0, r.useState)(""), [t, x] = (0, r.useState)(!1), p = F.filter(s => s.name.toLowerCase().includes(e.toLowerCase()) || s.title.toLowerCase().includes(e.toLowerCase()) || s.department.toLowerCase().includes(e.toLowerCase())), v = p.filter(e => "doctor" === e.role), b = p.filter(e => "nurse" === e.role), C = p.filter(e => "admin" === e.role);
+        return (0, a.jsxs)(a.Fragment, {
+          children: [(0, a.jsxs)("div", {
+            className: "mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between",
+            children: [(0, a.jsxs)("div", {
+              children: [(0, a.jsx)("h1", {
+                className: "text-2xl font-bold tracking-tight",
+                children: "Staff Management"
+              }), (0, a.jsx)("p", {
+                className: "mt-1 text-sm text-muted-foreground",
+                children: "Manage hospital workforce, schedules, and department assignments."
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "flex items-center gap-3",
+              children: [(0, a.jsxs)("div", {
+                className: "relative",
+                children: [(0, a.jsx)(N.A, {
+                  className: "absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+                }), (0, a.jsx)(c.p, {
+                  placeholder: "Search staff...",
+                  value: e,
+                  onChange: e => s(e.target.value),
+                  className: "w-64 pl-9"
+                })]
+              }), (0, a.jsxs)(n.$, {
+                onClick: () => x(!0),
+                children: [(0, a.jsx)(y.A, {
+                  className: "mr-2 h-4 w-4"
+                }), "Add Staff Member"]
+              })]
+            })]
+          }), (0, a.jsx)("div", {
+            className: "mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4",
+            children: R.map(e => {
+              let s = e.icon;
+              return (0, a.jsx)(l.Zp, {
+                children: (0, a.jsx)(l.Wu, {
+                  className: "p-5",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-start justify-between",
+                    children: [(0, a.jsxs)("div", {
+                      className: "space-y-2",
+                      children: [(0, a.jsx)("p", {
+                        className: "text-xs font-medium text-muted-foreground",
+                        children: e.title
+                      }), (0, a.jsx)("p", {
+                        className: "text-2xl font-bold tracking-tight",
+                        children: e.value
+                      })]
+                    }), (0, a.jsx)("div", {
+                      className: (0, u.cn)("flex h-10 w-10 items-center justify-center rounded-xl", e.bg),
+                      children: (0, a.jsx)(s, {
+                        className: (0, u.cn)("h-5 w-5", e.color)
+                      })
+                    })]
+                  })
+                })
+              }, e.title)
+            })
+          }), (0, a.jsxs)("div", {
+            className: "grid grid-cols-1 gap-6 xl:grid-cols-12",
+            children: [(0, a.jsx)("div", {
+              className: "xl:col-span-8",
+              children: (0, a.jsxs)(g.tU, {
+                defaultValue: "all",
+                children: [(0, a.jsxs)(g.j7, {
+                  children: [(0, a.jsxs)(g.Xi, {
+                    value: "all",
+                    children: ["All Staff", (0, a.jsx)(i.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: p.length
+                    })]
+                  }), (0, a.jsxs)(g.Xi, {
+                    value: "doctors",
+                    children: ["Doctors", (0, a.jsx)(i.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: v.length
+                    })]
+                  }), (0, a.jsxs)(g.Xi, {
+                    value: "nurses",
+                    children: ["Nurses", (0, a.jsx)(i.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: b.length
+                    })]
+                  }), (0, a.jsxs)(g.Xi, {
+                    value: "admin",
+                    children: ["Administration", (0, a.jsx)(i.E, {
+                      variant: "secondary",
+                      className: "ml-2 text-[10px]",
+                      children: C.length
+                    })]
+                  })]
+                }), (0, a.jsx)(g.av, {
+                  value: "all",
+                  className: "mt-4",
+                  children: (0, a.jsx)(_, {
+                    staff: p
+                  })
+                }), (0, a.jsx)(g.av, {
+                  value: "doctors",
+                  className: "mt-4",
+                  children: (0, a.jsx)(_, {
+                    staff: v
+                  })
+                }), (0, a.jsx)(g.av, {
+                  value: "nurses",
+                  className: "mt-4",
+                  children: (0, a.jsx)(_, {
+                    staff: b
+                  })
+                }), (0, a.jsx)(g.av, {
+                  value: "admin",
+                  className: "mt-4",
+                  children: (0, a.jsx)(_, {
+                    staff: C
+                  })
+                })]
+              })
+            }), (0, a.jsxs)("div", {
+              className: "xl:col-span-4 space-y-4",
+              children: [(0, a.jsxs)(l.Zp, {
+                children: [(0, a.jsx)(l.aR, {
+                  className: "pb-2",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(w.A, {
+                      className: "h-4 w-4 text-chart-1"
+                    }), (0, a.jsx)(l.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Department Distribution"
+                    })]
+                  })
+                }), (0, a.jsx)(l.Wu, {
+                  children: (0, a.jsx)(A.u, {
+                    width: "100%",
+                    height: 220,
+                    children: (0, a.jsxs)(k.E, {
+                      data: Z,
+                      layout: "vertical",
+                      margin: {
+                        top: 0,
+                        right: 0,
+                        bottom: 0,
+                        left: 0
+                      },
+                      children: [(0, a.jsx)(D.W, {
+                        type: "number",
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 10
+                        }
+                      }), (0, a.jsx)(L.h, {
+                        type: "category",
+                        dataKey: "department",
+                        axisLine: !1,
+                        tickLine: !1,
+                        tick: {
+                          fill: "var(--muted-foreground)",
+                          fontSize: 11
+                        },
+                        width: 80
+                      }), (0, a.jsx)(O.m, {
+                        content: (0, a.jsx)(T, {})
+                      }), (0, a.jsx)(P.yP, {
+                        dataKey: "count",
+                        fill: "var(--chart-1)",
+                        radius: [0, 4, 4, 0],
+                        barSize: 16
+                      })]
+                    })
+                  })
+                })]
+              }), (0, a.jsxs)(l.Zp, {
+                children: [(0, a.jsx)(l.aR, {
+                  className: "pb-3",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(S.A, {
+                      className: "h-4 w-4 text-chart-2"
+                    }), (0, a.jsx)(l.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Today's Schedule"
+                    })]
+                  })
+                }), (0, a.jsx)(l.Wu, {
+                  className: "space-y-3",
+                  children: B.map(e => (0, a.jsxs)("div", {
+                    className: "flex items-start gap-3 rounded-lg border border-border/50 p-3 transition-colors hover:bg-muted/30",
+                    children: [(0, a.jsx)("div", {
+                      className: (0, u.cn)("mt-0.5 h-2.5 w-2.5 shrink-0 rounded-full", e.color)
+                    }), (0, a.jsxs)("div", {
+                      className: "min-w-0 flex-1",
+                      children: [(0, a.jsxs)("div", {
+                        className: "flex items-center justify-between gap-2",
+                        children: [(0, a.jsx)("p", {
+                          className: "text-sm font-medium",
+                          children: e.label
+                        }), (0, a.jsx)("span", {
+                          className: "shrink-0 text-xs text-muted-foreground",
+                          children: e.time
+                        })]
+                      }), (0, a.jsx)("p", {
+                        className: "mt-0.5 text-xs text-muted-foreground",
+                        children: e.staff
+                      })]
+                    })]
+                  }, e.time))
+                })]
+              }), (0, a.jsxs)(l.Zp, {
+                children: [(0, a.jsx)(l.aR, {
+                  className: "pb-3",
+                  children: (0, a.jsxs)("div", {
+                    className: "flex items-center gap-2",
+                    children: [(0, a.jsx)(j.A, {
+                      className: "h-4 w-4 text-chart-3"
+                    }), (0, a.jsx)(l.ZB, {
+                      className: "text-base font-semibold",
+                      children: "Shift Coverage"
+                    })]
+                  })
+                }), (0, a.jsx)(l.Wu, {
+                  className: "space-y-4",
+                  children: [{
+                    shift: "Morning",
+                    filled: 42,
+                    total: 48,
+                    color: "bg-chart-1"
+                  }, {
+                    shift: "Evening",
+                    filled: 38,
+                    total: 44,
+                    color: "bg-chart-2"
+                  }, {
+                    shift: "Night",
+                    filled: 20,
+                    total: 24,
+                    color: "bg-chart-4"
+                  }].map(e => (0, a.jsxs)("div", {
+                    className: "space-y-1.5",
+                    children: [(0, a.jsxs)("div", {
+                      className: "flex items-center justify-between",
+                      children: [(0, a.jsx)("span", {
+                        className: "text-xs font-medium",
+                        children: e.shift
+                      }), (0, a.jsxs)("span", {
+                        className: "text-xs text-muted-foreground",
+                        children: [e.filled, "/", e.total, " filled"]
+                      })]
+                    }), (0, a.jsx)(f.k, {
+                      value: Math.round(e.filled / e.total * 100),
+                      className: "h-2"
+                    })]
+                  }, e.shift))
+                })]
+              })]
+            })]
+          }), (0, a.jsx)(d.lG, {
+            open: t,
+            onOpenChange: x,
+            children: (0, a.jsxs)(d.Cf, {
+              className: "sm:max-w-[480px]",
+              children: [(0, a.jsxs)(d.c7, {
+                children: [(0, a.jsx)(d.L3, {
+                  children: "Add Staff Member"
+                }), (0, a.jsx)(d.rr, {
+                  children: "Fill in the details to add a new staff member."
+                })]
+              }), (0, a.jsxs)("form", {
+                onSubmit: e => {
+                  e.preventDefault(), h.oR.success("Staff member added successfully"), x(!1)
+                },
+                className: "grid gap-4 py-4",
+                children: [(0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-name",
+                    children: "Full Name"
+                  }), (0, a.jsx)(c.p, {
+                    id: "staff-name",
+                    placeholder: "Enter full name"
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-role",
+                    children: "Role"
+                  }), (0, a.jsxs)(m.l6, {
+                    children: [(0, a.jsx)(m.bq, {
+                      id: "staff-role",
+                      children: (0, a.jsx)(m.yv, {
+                        placeholder: "Select role"
+                      })
+                    }), (0, a.jsxs)(m.gC, {
+                      children: [(0, a.jsx)(m.eb, {
+                        value: "doctor",
+                        children: "Doctor"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "nurse",
+                        children: "Nurse"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "administrator",
+                        children: "Administrator"
+                      })]
+                    })]
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-department",
+                    children: "Department"
+                  }), (0, a.jsxs)(m.l6, {
+                    children: [(0, a.jsx)(m.bq, {
+                      id: "staff-department",
+                      children: (0, a.jsx)(m.yv, {
+                        placeholder: "Select department"
+                      })
+                    }), (0, a.jsxs)(m.gC, {
+                      children: [(0, a.jsx)(m.eb, {
+                        value: "emergency",
+                        children: "Emergency"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "cardiology",
+                        children: "Cardiology"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "pediatrics",
+                        children: "Pediatrics"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "neurology",
+                        children: "Neurology"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "orthopedics",
+                        children: "Orthopedics"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "radiology",
+                        children: "Radiology"
+                      })]
+                    })]
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-email",
+                    children: "Email"
+                  }), (0, a.jsx)(c.p, {
+                    id: "staff-email",
+                    type: "email",
+                    placeholder: "email@hospital.org"
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-phone",
+                    children: "Phone"
+                  }), (0, a.jsx)(c.p, {
+                    id: "staff-phone",
+                    type: "tel",
+                    placeholder: "(555) 000-0000"
+                  })]
+                }), (0, a.jsxs)("div", {
+                  className: "grid gap-2",
+                  children: [(0, a.jsx)(o.J, {
+                    htmlFor: "staff-shift",
+                    children: "Shift"
+                  }), (0, a.jsxs)(m.l6, {
+                    children: [(0, a.jsx)(m.bq, {
+                      id: "staff-shift",
+                      children: (0, a.jsx)(m.yv, {
+                        placeholder: "Select shift"
+                      })
+                    }), (0, a.jsxs)(m.gC, {
+                      children: [(0, a.jsx)(m.eb, {
+                        value: "morning",
+                        children: "Morning"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "evening",
+                        children: "Evening"
+                      }), (0, a.jsx)(m.eb, {
+                        value: "night",
+                        children: "Night"
+                      })]
+                    })]
+                  })]
+                }), (0, a.jsxs)(d.Es, {
+                  children: [(0, a.jsx)(n.$, {
+                    type: "button",
+                    variant: "outline",
+                    onClick: () => x(!1),
+                    children: "Cancel"
+                  }), (0, a.jsx)(n.$, {
+                    type: "submit",
+                    children: "Add Staff Member"
+                  })]
+                })]
+              })]
+            })
+          })]
+        })
+      }
+
+      function _({
+        staff: e
+      }) {
+        return 0 === e.length ? (0, a.jsx)("p", {
+          className: "py-8 text-center text-sm text-muted-foreground",
+          children: "No staff members match your search."
+        }) : (0, a.jsx)("div", {
+          className: "grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3",
+          children: e.map(e => (0, a.jsx)(q, {
+            member: e
+          }, e.id))
+        })
+      }
+
+      function q({
+        member: e
+      }) {
+        let s = J[e.status];
+        return (0, a.jsx)(l.Zp, {
+          className: "transition-all duration-200 hover:shadow-md hover:border-primary/20",
+          children: (0, a.jsxs)(l.Wu, {
+            className: "p-4",
+            children: [(0, a.jsxs)("div", {
+              className: "flex items-start gap-3",
+              children: [(0, a.jsx)(x.eu, {
+                className: "h-11 w-11 shrink-0",
+                children: (0, a.jsx)(x.q5, {
+                  className: (0, u.cn)("text-xs font-bold text-white", e.avatarColor),
+                  children: e.initials
+                })
+              }), (0, a.jsx)("div", {
+                className: "min-w-0 flex-1",
+                children: (0, a.jsxs)("div", {
+                  className: "flex items-start justify-between gap-2",
+                  children: [(0, a.jsxs)("div", {
+                    className: "min-w-0",
+                    children: [(0, a.jsx)("p", {
+                      className: "truncate text-sm font-semibold",
+                      children: e.name
+                    }), (0, a.jsx)("p", {
+                      className: "text-xs text-muted-foreground",
+                      children: e.title
+                    })]
+                  }), (0, a.jsx)(i.E, {
+                    variant: s.variant,
+                    className: "shrink-0 text-[10px]",
+                    children: s.label
+                  })]
+                })
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "mt-3 flex items-center gap-1.5",
+              children: [(0, a.jsx)(b.A, {
+                className: "h-3.5 w-3.5 text-muted-foreground"
+              }), (0, a.jsx)("span", {
+                className: "text-xs text-muted-foreground",
+                children: e.department
+              })]
+            }), (0, a.jsx)("div", {
+              className: "mt-2.5 flex items-center gap-3",
+              children: (0, a.jsxs)("div", {
+                className: "flex items-center gap-1.5 text-xs text-muted-foreground",
+                children: [(0, a.jsx)(C.A, {
+                  className: "h-3 w-3"
+                }), (0, a.jsx)("span", {
+                  children: e.phone
+                })]
+              })
+            }), (0, a.jsxs)("div", {
+              className: "mt-1 flex items-center gap-1.5 text-xs text-muted-foreground",
+              children: [(0, a.jsx)(E.A, {
+                className: "h-3 w-3"
+              }), (0, a.jsx)("span", {
+                className: "truncate",
+                children: e.email
+              })]
+            }), (0, a.jsxs)("div", {
+              className: "mt-3 flex items-center justify-between border-t border-border/50 pt-3",
+              children: [(0, a.jsxs)("div", {
+                className: "flex items-center gap-1",
+                children: [(0, a.jsx)(M.A, {
+                  className: "h-3.5 w-3.5 fill-chart-5 text-chart-5"
+                }), (0, a.jsx)("span", {
+                  className: "text-xs font-semibold",
+                  children: e.rating
+                })]
+              }), (0, a.jsxs)("span", {
+                className: "text-[11px] text-muted-foreground",
+                children: [e.yearsExperience, " yrs exp."]
+              }), (0, a.jsxs)(i.E, {
+                variant: "secondary",
+                className: "text-[10px]",
+                children: [(0, a.jsx)(S.A, {
+                  className: "mr-1 h-3 w-3"
+                }), e.shift]
+              })]
+            })]
+          })
+        })
+      }
+    }
+  },
+  e => {
+    e.O(0, [9055, 6609, 6264, 7618, 6895, 9883, 3960, 6877, 227, 2363, 6197, 459, 3304, 7417, 4837, 8441, 3794, 7358], () => e(e.s = 61299)), _N_E = e.O()
+  }
+]);
