@@ -1,0 +1,556 @@
+Uri: https://ember-dashboard-dlr.pages.dev/
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\index.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/analytics
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\analytics.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/appointments
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\appointments.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/bed-management
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\bed-management.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/billing
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\billing.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/charts
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\charts.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/customers
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\customers.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/dashboard
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\dashboard-1.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/adding-pages
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\adding-pages.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/changelog
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\changelog.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/charts
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\charts.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/components
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\components.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/deployment
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\deployment.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/folder-structure
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\folder-structure.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/getting-started
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\getting-started.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/i18n
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\i18n.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/seed-starter
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\seed-starter.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/storybook
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\storybook.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/testing
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\testing.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/docs/theming
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\docs\theming.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/favicon.ico?603d046c9a6fdfbb
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\favicon-1.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://ember-dashboard-dlr.pages.dev/forgot-password
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\forgot-password.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/health-records
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\health-records.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/invoices
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\invoices.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/kanban
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\kanban.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/lab-results
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\lab-results.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/login
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\login.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/notifications
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\notifications.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/patients
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\patients.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/prescriptions
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\prescriptions.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/profile
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\profile.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/register
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\register.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/settings
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\settings.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/staff
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\staff.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/support
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\support.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/telemedicine
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\telemedicine.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/users
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\users.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/vaccinations
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\vaccinations.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/vitals
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\vitals.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/wizard
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\wizard.htm
+Content Type: text/html
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/1126-15c2868d7ca7383d.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\1126-15c2868d7ca7383d.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/1685-90972694097206f6.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\1685-90972694097206f6.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/1842-22a6cbeaa6d4403c.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\1842-22a6cbeaa6d4403c.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/2061-3a81f34cf7af41e0.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\2061-3a81f34cf7af41e0.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/2201-7fbd14892c1949f3.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\2201-7fbd14892c1949f3-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/227-c80f1393ffdeacf1.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\227-c80f1393ffdeacf1-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/2363-e13c249c8a2daadb.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\2363-e13c249c8a2daadb-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/263-579cbcc5a6f95038.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\263-579cbcc5a6f95038-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3304-eaa32f72e6cbad16.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3304-eaa32f72e6cbad16-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3459-714c82325556d50e.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3459-714c82325556d50e.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3533-d5e1cba2dfa26552.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3533-d5e1cba2dfa26552.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3743-b1f5d2bb694564db.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3743-b1f5d2bb694564db.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3794-40f1de0c9e9a728a.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3794-40f1de0c9e9a728a-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/396-399bcf4b3b7780bf.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\396-399bcf4b3b7780bf.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/3960-52729e7029a6ff3f.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\3960-52729e7029a6ff3f.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/4106-970be949c58dd69e.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\4106-970be949c58dd69e.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/459-90b2888aed531dee.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\459-90b2888aed531dee-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/4837-3c5f05e338145545.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\4837-3c5f05e338145545.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/4bd1b696-10cb4c9d2844a506.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\4bd1b696-10cb4c9d2844a506-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/5127-2dcf741e5e39e3a4.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\5127-2dcf741e5e39e3a4.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/5319-d1f39ac2700ace93.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\5319-d1f39ac2700ace93-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/5583-5172f6945bf75c47.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\5583-5172f6945bf75c47.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/56-b6f1bfd7d1f14f19.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\56-b6f1bfd7d1f14f19.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/5854-bf8613b7c6fb8c1c.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\5854-bf8613b7c6fb8c1c.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/602dbae6-bd90ad41cb87fa7b.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\602dbae6-bd90ad41cb87fa7b.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6197-4ae4072896a3ab1e.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6197-4ae4072896a3ab1e-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6264-3bbff32dccf8bba7.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6264-3bbff32dccf8bba7-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6270-46224bf4feb1bdf0.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6270-46224bf4feb1bdf0.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6609-078a8cdc853f87c6.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6609-078a8cdc853f87c6-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6877-f8b2335e5e2cb555.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6877-f8b2335e5e2cb555-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/6895-a705d811f3f6ca09.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\6895-a705d811f3f6ca09-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/7048-46f033ae1a63718a.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\7048-46f033ae1a63718a.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/7417-2f8226b7fed4edca.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\7417-2f8226b7fed4edca.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/7618-95e641e131449c79.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\7618-95e641e131449c79-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/7646-639829b42b84a5b5.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\7646-639829b42b84a5b5.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/7722-230f8a91214e703a.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\7722-230f8a91214e703a.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/8206-13c1910b312579a5.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\8206-13c1910b312579a5.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/8500-98e13bcce54aa7a0.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\8500-98e13bcce54aa7a0-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/8914-f2b6ba7af56578fd.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\8914-f2b6ba7af56578fd.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/9055-8744da96081dcd99.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\9055-8744da96081dcd99-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/9184-0999af4f52c3d653.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\9184-0999af4f52c3d653.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/9864-1315d8683b354390.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\9864-1315d8683b354390-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/9883-5ff1b7924db1ec08.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\9883-5ff1b7924db1ec08-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/9912-8d10cac34975537e.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\9912-8d10cac34975537e-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(auth)/forgot-password/page-311713983f1b38c5.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(auth)\forgot-password\page-311713983f1b38c5.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(auth)/login/page-61bb59d3c9b849a2.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(auth)\login\page-61bb59d3c9b849a2.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(auth)/register/page-d78e5135c9df057b.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(auth)\register\page-d78e5135c9df057b.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(auth-split)/layout-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(auth-split)\layout-8b362b432e016a53-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/analytics/page-e24fce9d7f15265a.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\analytics\page-e24fce9d7f15265a.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/appointments/page-f7a5621c587b779c.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\appointments\page-f7a5621c587b779c.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/bed-management/page-6b26fd8dfbeac357.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\bed-management\page-6b26fd8dfbeac357.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/billing/page-416c44249c7482a8.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\billing\page-416c44249c7482a8.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/charts/page-b96324494d25378b.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\charts\page-b96324494d25378b.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/customers/page-d05c89057eaf9aba.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\customers\page-d05c89057eaf9aba.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/dashboard/page-8747dff51719f808.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\dashboard\page-8747dff51719f808-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/error-8b006fbdc69a6267.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\error-8b006fbdc69a6267-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/health-records/page-b4acda8a4d014f52.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\health-records\page-b4acda8a4d014f52.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/invoices/page-fefc9283225c5f36.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\invoices\page-fefc9283225c5f36.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/kanban/page-0260ec1ecb1619c7.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\kanban\page-0260ec1ecb1619c7.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/lab-results/page-f4b3d34c049fb94d.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\lab-results\page-f4b3d34c049fb94d.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/layout-8cba011c8e7cf92f.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\layout-8cba011c8e7cf92f-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/notifications/page-9caab4b0bb693caf.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\notifications\page-9caab4b0bb693caf.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/patients/page-933cfb18c6ec0ae3.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\patients\page-933cfb18c6ec0ae3.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/prescriptions/page-3fca3957c58df778.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\prescriptions\page-3fca3957c58df778.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/profile/page-bf6c1ebec68888e5.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\profile\page-bf6c1ebec68888e5.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/settings/page-dbaaf063cf25b439.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\settings\page-dbaaf063cf25b439.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/staff/page-f4a5b1427287d43d.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\staff\page-f4a5b1427287d43d.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/support/page-f1bd8124461c508c.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\support\page-f1bd8124461c508c.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/telemedicine/page-8ae294058db5f0b9.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\telemedicine\page-8ae294058db5f0b9.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/users/page-075027bcec0e2fb0.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\users\page-075027bcec0e2fb0.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/vaccinations/page-645490029d8b643c.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\vaccinations\page-645490029d8b643c.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/vitals/page-a7eb61571af33e4d.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\vitals\page-a7eb61571af33e4d.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(dashboard)/wizard/page-16a2ef2fecd1a6a1.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(dashboard)\wizard\page-16a2ef2fecd1a6a1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/(landing)/page-4fb1861de017f930.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\(landing)\page-4fb1861de017f930.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/adding-pages/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\adding-pages\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/changelog/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\changelog\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/charts/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\charts\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/components/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\components\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/deployment/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\deployment\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/folder-structure/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\folder-structure\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/getting-started/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\getting-started\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/i18n/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\i18n\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/layout-71afd227a4354022.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\layout-71afd227a4354022.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/seed-starter/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\seed-starter\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/storybook/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\storybook\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/testing/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\testing\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/docs/theming/page-8b362b432e016a53.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\docs\theming\page-8b362b432e016a53.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/error-534318d9f412a674.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\error-534318d9f412a674-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/app/layout-aa7e66164d849f59.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\app\layout-aa7e66164d849f59-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/main-app-38eb9a730b9fec85.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\main-app-38eb9a730b9fec85-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/polyfills-42372ed130431b0a.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\polyfills-42372ed130431b0a-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/chunks/webpack-efd55ea53884ac04.js
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\chunks\webpack-efd55ea53884ac04-1.js
+Content Type: application/javascript
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/css/0ba5c1956fff4289.css
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\css\0ba5c1956fff4289.css
+Content Type: text/css
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/css/d13c00c6a1dc94c1.css
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\css\d13c00c6a1dc94c1-1.css
+Content Type: text/css
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/css/d767fcdb943e2418.css
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\css\d767fcdb943e2418-1.css
+Content Type: text/css
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/media/569ce4b8f30dc480-s.p.woff2
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\media\569ce4b8f30dc480-s.p-1.woff2
+Content Type: font/woff2
+
+Uri: https://ember-dashboard-dlr.pages.dev/_next/static/media/93f479601ee12b01-s.p.woff2
+File Name: C:\Downloaded Web Sites\ember-dashboard-dlr.pages.dev\_next\static\media\93f479601ee12b01-s.p-1.woff2
+Content Type: font/woff2
+
